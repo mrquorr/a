@@ -43,9 +43,6 @@ tmp_results.json
 .DS_Store
 Thumbs.db
 
-# Flask
-instance/
-.webassets-cache
 
 # pytest
 .pytest_cache/

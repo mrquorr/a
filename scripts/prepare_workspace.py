@@ -44,6 +44,24 @@ def main():
         copytree(src, dst)
 
     # Write round README
+    llm_allowed = meta['allow_llm'][round_key]
+    policy_note = ""
+    if not llm_allowed:
+        policy_note = """
+
+⚠️  IMPORTANT: LLM assistance is NOT allowed in this round.
+   - Do NOT use ChatGPT, Copilot, or other AI tools
+   - Work independently
+   - Violations may invalidate your results
+"""
+    else:
+        policy_note = """
+
+✅ LLM assistance is ALLOWED in this round.
+   - You may use ChatGPT, Copilot, or other AI tools
+   - Feel free to get AI help with your solutions
+"""
+    
     (target / "README.md").write_text(
         f"""
 Round {args.round} Assignments
@@ -56,8 +74,7 @@ Solve each exercise. To run tests from repo root:
 When ready, submit using:
 
   python scripts/submit.py {pid} {args.round}
-
-LLM policy for this round: {'allowed' if meta['allow_llm'][round_key] else 'NOT allowed'}.
+{policy_note}
 """.strip()
     )
 

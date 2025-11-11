@@ -60,12 +60,12 @@ def main():
         print(f"\n{pool_name.upper()} pool: {len(exercises)} exercises")
         
         if len(exercises) < min_required:
-            print(f"  ❌ ERROR: Need at least {min_required} exercises, found {len(exercises)}")
+            print(f"  [ERROR] Need at least {min_required} exercises, found {len(exercises)}")
             all_valid = False
         elif len(exercises) < recommended:
-            print(f"  ⚠️  WARNING: Recommended {recommended}+ exercises, found {len(exercises)}")
+            print(f"  [WARNING] Recommended {recommended}+ exercises, found {len(exercises)}")
         else:
-            print(f"  ✅ OK: {len(exercises)} exercises")
+            print(f"  [OK] {len(exercises)} exercises")
         
         # Validate each exercise structure
         pool_dir = EX_DIR / pool_name
@@ -73,11 +73,11 @@ def main():
             ex_path = pool_dir / ex_name
             errors = validate_exercise(ex_path)
             if errors:
-                print(f"    ❌ {ex_name}: {', '.join(errors)}")
+                print(f"    [ERROR] {ex_name}: {', '.join(errors)}")
                 all_valid = False
             else:
                 test_count = len(list((ex_path / "tests").glob("test_*.py")))
-                print(f"    ✅ {ex_name} ({test_count} test file(s))")
+                print(f"    [OK] {ex_name} ({test_count} test file(s))")
     
     print("\n" + "=" * 60)
     
@@ -87,27 +87,27 @@ def main():
     
     # Experienced: needs 2 medium + 2 hard
     if pool_counts["medium"] >= 2 and pool_counts["hard"] >= 2:
-        print("✅ Experienced participants: OK (need 2 medium + 2 hard)")
+        print("[OK] Experienced participants: OK (need 2 medium + 2 hard)")
     else:
-        print(f"❌ Experienced participants: Need 2 medium + 2 hard")
+        print(f"[ERROR] Experienced participants: Need 2 medium + 2 hard")
         print(f"   Current: {pool_counts['medium']} medium, {pool_counts['hard']} hard")
         all_valid = False
     
     # Inexperienced: needs 2 easy + 2 medium
     if pool_counts["easy"] >= 2 and pool_counts["medium"] >= 2:
-        print("✅ Inexperienced participants: OK (need 2 easy + 2 medium)")
+        print("[OK] Inexperienced participants: OK (need 2 easy + 2 medium)")
     else:
-        print(f"❌ Inexperienced participants: Need 2 easy + 2 medium")
+        print(f"[ERROR] Inexperienced participants: Need 2 easy + 2 medium")
         print(f"   Current: {pool_counts['easy']} easy, {pool_counts['medium']} medium")
         all_valid = False
     
     print("\n" + "=" * 60)
     
     if all_valid:
-        print("✅ All checks passed! Pools are ready for assignment.")
+        print("[SUCCESS] All checks passed! Pools are ready for assignment.")
         return 0
     else:
-        print("❌ Validation failed. Please add more exercises or fix issues above.")
+        print("[FAILED] Validation failed. Please add more exercises or fix issues above.")
         return 1
 
 

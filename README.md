@@ -10,17 +10,22 @@ What you get
 - One‑command submission that runs tests and archives results under `results/` (optional auto‑push).
 
 Quick start (as organizer)
-1) Ensure there are at least 5 exercises per pool under:
-   - `exercises/easy/*`
-   - `exercises/medium/*`
-   - `exercises/hard/*`
-   Each exercise should be a folder with:
-   - `task.py` (starter or solution stub)
-   - `tests/test_task.py` (pytest tests, can include hidden tests)
+1) Validate exercise pools:
+   ```bash
+   bin/validate
+   ```
+   This checks you have sufficient exercises (minimum 2 per pool, recommended 5+).
 
-2) Commit and push to GitHub.
+2) Ensure repository is accessible:
+   - For public repo: Already accessible
+   - For private repo: Add participants as collaborators (Settings → Collaborators)
 
-3) Click “Code” → “Create codespace on main”.
+3) Share with participants:
+   - Repository URL: https://github.com/libanmohamud-spec/a
+   - Link to PARTICIPANT_GUIDE.md
+   - Instructions to create a Codespace
+
+4) See PRODUCTION_SETUP.md for detailed launch checklist.
 
 Participant flow
 1) Initialize session (once per participant):

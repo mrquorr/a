@@ -18,17 +18,20 @@
 
 ## On Experiment Day
 
+### Generate and share participant ID (3 digit starting in 001)
+
 ### For Participants (Share This):
 
 **Super Quick Start:**
 1. Open: https://github.com/libanmohamud-spec/a
 2. Click "Code" → "Codespaces" → "Create codespace on main"
-3. Wait 2 minutes
-4. Run: `bin/start <your_id> <yes|no>`
-5. Work on Round 1 (no AI) → Submit
-6. Run: `bin/round2 <your_id>` → Work on Round 2 (AI allowed) → Submit
-
-**Total setup time: ~2 minutes**
+3. Wait for page to load
+4. Run: `bin/start <your_id> <yes|no>` in the console
+5. Work on Round 1 (no AI)
+6. When you finish Round 1 run `bin/submit1 <your_id> --push`
+7. Run: `bin/round2 <your_id>`
+8. Work on Round 2 (no AI)
+9. When you finish Round 1 run `bin/submit2 <your_id> --push`
 
 ### For Organizers:
 

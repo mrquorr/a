@@ -33,6 +33,8 @@
 8. Work on Round 2 (no AI)
 9. When you finish Round 1 run `bin/submit2 <your_id> --push`
 
+Detailed instructions can be found in `PARTICIPANT_GUIDE.MD`
+
 ### For Organizers:
 
 **Monitor Progress:**

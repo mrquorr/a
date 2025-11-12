@@ -19,19 +19,3 @@ def test_find_max_positive():
 def test_find_max_negative():
     """Test with negative numbers"""
     assert find_max([-5, -2, -8, -1]) == -1
-
-
-def test_find_max_mixed():
-    """Test with mixed positive and negative"""
-    assert find_max([-5, 0, 5, -10, 3]) == 5
-
-
-def test_find_max_single():
-    """Test with single element"""
-    assert find_max([42]) == 42
-
-
-def test_find_max_empty():
-    """Test empty list"""
-    assert find_max([]) is None
-

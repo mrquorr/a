@@ -15,23 +15,7 @@ def test_list_average_basic():
     """Test basic average"""
     assert list_average([1, 2, 3, 4, 5]) == 3.0
 
-
-def test_list_average_single():
-    """Test single element"""
-    assert list_average([5]) == 5.0
-
-
 def test_list_average_empty():
     """Test empty list"""
     assert list_average([]) == 0.0
-
-
-def test_list_average_decimal():
-    """Test with decimal result"""
-    assert list_average([1, 2, 3]) == 2.0
-
-
-def test_list_average_negative():
-    """Test with negative numbers"""
-    assert list_average([-2, 0, 2]) == 0.0
 

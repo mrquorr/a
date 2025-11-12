@@ -9,6 +9,13 @@ def is_palindrome(text):
         True if text is a palindrome, False otherwise.
         Empty string is considered a palindrome.
     """
-    # TODO: Implement this function
-    pass
+    left = 0
+    right = len(text) - 1
 
+    while right < left:
+        if text[right] != text[left]:
+            return False
+        left += 1
+        right -= 1
+
+    return True

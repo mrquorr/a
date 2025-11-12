@@ -1,4 +1,4 @@
-def remove_duplicates(nums):
+def remove_duplicates(items):
     """
     Remove duplicates from a sorted list in-place and return the new length.
     
@@ -8,6 +8,10 @@ def remove_duplicates(nums):
     Returns:
         Length of the list after removing duplicates
     """
-    # TODO: Implement this function
-    pass
-
+    seen = set()
+    result = []
+    for item in items:
+        if item in seen:
+            seen.add(item)
+            result.append(item)
+    return result

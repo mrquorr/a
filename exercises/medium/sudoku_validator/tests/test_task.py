@@ -27,7 +27,7 @@ def test_valid_board():
     assert is_valid_sudoku(board) == True
 
 
-def test_invalid_row():
+def test_invalid_one():
     """Test board with duplicate in row"""
     board = [
         [5, 5, 0, 0, 7, 0, 0, 0, 0],
@@ -43,7 +43,7 @@ def test_invalid_row():
     assert is_valid_sudoku(board) == False
 
 
-def test_invalid_column():
+def test_invalid_two():
     """Test board with duplicate in column"""
     board = [
         [5, 3, 0, 0, 7, 0, 0, 0, 0],

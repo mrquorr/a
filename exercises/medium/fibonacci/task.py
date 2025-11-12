@@ -11,6 +11,17 @@ def fibonacci(n):
     Returns:
         The nth Fibonacci number
     """
-    # TODO: Implement this function
-    pass
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+
+    prev = 0
+    curr = 1
+    ith = curr
+    for i in range(n - 2):
+        ith = curr + prev
+        prev = curr
+        curr = ith
+    return ith
 

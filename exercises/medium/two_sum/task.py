@@ -10,6 +10,10 @@ def two_sum(numbers, target):
         List of two indices [i, j] where numbers[i] + numbers[j] == target,
         or None if no such pair exists.
     """
-    # TODO: Implement this function
-    pass
-
+    seen = {}
+    for i, num in enumerate(numbers):
+        complement = target - num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i + 1  # BUG: Should be just i
+    return None

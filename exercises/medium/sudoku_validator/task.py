@@ -1,4 +1,3 @@
-# column check should return False
 def is_valid_sudoku(mat):
     """
     Check if a 9x9 Sudoku board is valid.
@@ -16,14 +15,12 @@ def is_valid_sudoku(mat):
         True if board is valid, False otherwise
     """
 
-    # Track of numbers in rows, columns, and sub-matrix
     rows = [[0] * 10 for _ in range(10)]
     cols = [[0] * 10 for _ in range(10)]
     subMat = [[0] * 10 for _ in range(10)]
 
     for i in range(9):
         for j in range(9):
-            # Skip empty cells
             if mat[i][j] == 0:
                 continue
 

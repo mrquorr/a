@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# One-command start script for participants
+# Usage: bin/start <participant_id> <yes|no>
+
+if [[ $# -lt 2 ]]; then
+    echo "Usage: bin/start <participant_id> <yes|no>"
+    echo ""
+    echo "  participant_id: Your unique ID (e.g., p001, p002)"
+    echo "  yes/no: Do you have programming experience?"
+    echo ""
+    echo "Example: bin/start p002 yes"
+    exit 1
+fi
+
+PID="$1"
+EXPERIENCE="$2"
+
+echo "=========================================="
+echo "  Coding Experiment - Quick Start"
+echo "=========================================="
+echo ""
+echo "Participant ID: $PID"
+echo "Experience: $EXPERIENCE"
+echo ""
+
+# Initialize session
+echo "Step 1/3: Initializing your session..."
+bin/init "$PID" "$EXPERIENCE"
+
+echo ""
+echo "Step 2/3: Setting up Round 1 (No AI assistance)..."
+bin/round1 "$PID"
+
+echo ""
+echo "=========================================="
+echo "  ✅ Setup Complete!"
+echo "=========================================="
+echo ""
+echo "Your Round 1 exercises are ready in: assignments/round1/"
+echo ""
+echo "⚠️  IMPORTANT: Round 1 - NO AI assistance allowed"
+echo "   Work independently without ChatGPT, Copilot, etc."
+echo ""
+echo "Next steps:"
+echo "  1. Work on exercises in assignments/round1/"
+echo "  2. Test: pytest assignments/round1/ -v"
+echo "  3. Submit: bin/submit1 $PID"
+echo ""
+echo "After Round 1, run: bin/round2 $PID (AI allowed)"
+echo ""
+

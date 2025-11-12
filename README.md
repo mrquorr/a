@@ -30,26 +30,20 @@ Quick start (as organizer)
 
 4) See PRODUCTION_SETUP.md for detailed launch checklist.
 
-Participant flow
-1) Initialize session (once per participant):
-   - `bin/init <participant_id> <yes|no>`
-     - Example: `bin/init p001 yes`
-     - Writes the exercise plan to `results/<participant_id>/assignment.json`.
+Participant flow (Streamlined)
 
-2) Round 1 setup:
-   - `bin/round1 <participant_id>`
-   - Work in `assignments/round1/*`.
+**Quick Start (One Command):**
+```bash
+bin/start <participant_id> <yes|no>
+```
+This does everything: initializes session, sets up Round 1, and shows next steps.
 
-3) Round 1 submit:
-   - `bin/submit1 <participant_id> [--push]`
-   - Saves results to `results/<participant_id>/round1/` (and commits/pushes if `--push`).
+**Or Step-by-Step:**
+1) Initialize: `bin/init <participant_id> <yes|no>`
+2) Round 1: `bin/round1 <participant_id>` → work in `assignments/round1/` → `bin/submit1 <participant_id>`
+3) Round 2: `bin/round2 <participant_id>` → work in `assignments/round2/` → `bin/submit2 <participant_id>`
 
-4) Round 2 setup (LLM allowed):
-   - `bin/round2 <participant_id>`
-   - Work in `assignments/round2/*`.
-
-5) Round 2 submit:
-   - `bin/submit2 <participant_id> [--push]`
+**See PARTICIPANT_INSTRUCTIONS.md for the fastest path.**
 
 Notes
 - Exercise selection:

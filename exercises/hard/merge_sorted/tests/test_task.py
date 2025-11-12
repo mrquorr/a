@@ -10,7 +10,6 @@ merge_sorted_arrays = task.merge_sorted_arrays
 
 import pytest
 
-
 def test_merge_sorted_basic():
     """Test basic merge"""
     assert merge_sorted_arrays([1, 3], [2, 4]) == [1, 2, 3, 4]

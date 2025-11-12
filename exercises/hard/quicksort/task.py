@@ -10,9 +10,11 @@ def quick_sort(arr, low, high):
     Returns:
         The sorted array
     """
-    # TODO: Implement this function
-    pass
-
+    if low < high:
+        pi = partition(arr, low, high)
+        quick_sort(arr, low, pi - 1)
+        quick_sort(arr, pi + 1, high)
+    return arr
 
 def partition(arr, low, high):
     """
@@ -26,9 +28,16 @@ def partition(arr, low, high):
     Returns:
         Final position of pivot element
     """
-    # TODO: Implement this function
-    pass
+    pivot = arr[high]
+    i = low - 1
 
+    for j in range(low, high):
+        if arr[j] <= pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+
+    arr[i + 1], arr[high] = arr[high], arr[i]
+    return i + 1
 
 def sort_array(arr):
     """
@@ -40,6 +49,6 @@ def sort_array(arr):
     Returns:
         New sorted list (original array is not modified)
     """
-    # TODO: Implement this function
-    pass
-
+    if not arr:
+        return arr
+    return quick_sort(arr[:], 0, len(arr) - 1)

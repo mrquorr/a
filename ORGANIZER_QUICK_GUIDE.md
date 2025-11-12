@@ -12,7 +12,7 @@
    - **Private:** Add participants as collaborators (Settings → Collaborators)
 
 3. **Share with participants:**
-   - Repository URL: https://github.com/libanmohamud-spec/a
+   - Repository URL: https://github.com/mrquorr/a
    - Tell them: "Create a Codespace, then run `bin/start <id> <yes|no>`"
    - Share PARTICIPANT_INSTRUCTIONS.md
 

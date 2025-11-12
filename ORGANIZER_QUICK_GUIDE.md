@@ -23,7 +23,7 @@
 ### For Participants (Share This):
 
 **Super Quick Start:**
-1. Open: https://github.com/libanmohamud-spec/a
+1. Open: https://github.com/mrquorr/a
 2. Click "Code" → "Codespaces" → "Create codespace on main"
 3. Wait for page to load
 4. Run: `bin/start <your_id> <yes|no>` in the console

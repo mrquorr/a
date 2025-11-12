@@ -52,8 +52,10 @@ cat results/test001/assignment.json
 ### 4. Documentation
 
 Ensure participants have access to:
-- `README.md` - Main documentation
-- `PARTICIPANT_GUIDE.md` - Step-by-step participant instructions
+- `PARTICIPANT_INSTRUCTIONS.md` - **Quick reference (recommended for participants)**
+- `QUICK_START.md` - Detailed step-by-step guide
+- `README.md` - Full documentation
+- `ORGANIZER_QUICK_GUIDE.md` - **Quick reference for organizers**
 
 ## Launch Steps
 
@@ -70,9 +72,9 @@ bin/validate
 ### Step 2: Share Repository
 
 Send participants:
-1. Repository URL
-2. Link to `PARTICIPANT_GUIDE.md`
-3. Instructions to create a Codespace
+1. Repository URL: `https://github.com/libanmohamud-spec/a`
+2. **Quick instructions:** "Create Codespace → Run `bin/start <id> <yes|no>`"
+3. Link to `PARTICIPANT_INSTRUCTIONS.md` for reference
 
 ### Step 3: Monitor Progress
 
@@ -112,9 +114,15 @@ python scripts/aggregate_results.py -o reports/final_results.csv
 
 ## Troubleshooting
 
+**Participants confused about setup:**
+- Point them to `PARTICIPANT_INSTRUCTIONS.md`
+- Use `bin/start` instead of separate commands (saves 5-10 minutes)
+- See `ORGANIZER_QUICK_GUIDE.md` for common issues
+
 **Participants can't access repository:**
 - Check repository visibility settings
 - Verify collaborator access (for private repos)
+- Make sure they're signed in to GitHub
 
 **Not enough exercises error:**
 - Run `bin/validate` to see what's missing
@@ -123,6 +131,11 @@ python scripts/aggregate_results.py -o reports/final_results.csv
 **Results not saving:**
 - Check `results/` directory permissions
 - Ensure participants have write access
+
+**Setup taking too long:**
+- Use `bin/start` command (one command instead of multiple)
+- Pre-assign participant IDs to avoid confusion
+- Have `PARTICIPANT_INSTRUCTIONS.md` ready to share
 
 
 ## Support

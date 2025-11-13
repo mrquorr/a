@@ -4,5 +4,5 @@ if [[ $# -lt 1 ]]; then
   echo "Usage: bin/submit2 <participant_id> [--push]" >&2
   exit 1
 fi
-python scripts/submit.py "$1" 2 ${2-}
+python scripts/submit.py "$1" "$2" 2 ${3-}
 

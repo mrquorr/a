@@ -43,11 +43,13 @@ def main():
     ap = argparse.ArgumentParser(description="Run tests for a round and archive results")
     ap.add_argument("participant_id")
     ap.add_argument("round", choices=["1", "2"])
+    ap.add_argument("confidence", choices=["0", "1", "2", "3", "4", "5"]
     ap.add_argument("--push", action="store_true", help="Commit and push results to repository")
     args = ap.parse_args()
 
     pid = args.participant_id
     round_key = f"round{args.round}"
+    confidence_score = args.confidence
     target = WS_DIR / round_key
     if not target.exists():
         raise SystemExit(f"Assignments for {round_key} not found at {target}.")
@@ -69,6 +71,7 @@ def main():
         "participant_id": pid,
         "round": round_key,
         "exit_code": rc,
+        "confidence_score": confidence_score,
         "submitted_at": datetime.utcnow().isoformat() + "Z",
     }
     (out_dir / "meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")

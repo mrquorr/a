@@ -42,8 +42,8 @@ def git_commit_and_push(paths):
 def main():
     ap = argparse.ArgumentParser(description="Run tests for a round and archive results")
     ap.add_argument("participant_id")
-    ap.add_argument("round", choices=["1", "2"])
     ap.add_argument("confidence", choices=["0", "1", "2", "3", "4", "5"]
+    ap.add_argument("round", choices=["1", "2"])
     ap.add_argument("--push", action="store_true", help="Commit and push results to repository")
     args = ap.parse_args()
 

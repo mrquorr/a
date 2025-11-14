@@ -45,6 +45,7 @@ def extract_test_summary(results_json: dict) -> dict:
     if not results_json:
         return {
             "total_tests": 0,
+            "confidence_score": 0,
             "passed": 0,
             "failed": 0,
             "errors": 0,
@@ -105,12 +106,14 @@ def main():
             results_json = load_round_results(pid, round_num)
             meta = load_round_meta(pid, round_num)
             test_summary = extract_test_summary(results_json)
+            print(meta)
             exercises = get_exercises_for_round(assignment, round_num)
             
             row = {
                 "participant_id": pid,
                 "experienced": "yes" if experienced else "no",
                 "round": round_num,
+                "round_confidence": meta["confidence_score"],
                 "exercises": exercises,
                 "total_tests": test_summary["total_tests"],
                 "passed": test_summary["passed"],
@@ -131,6 +134,7 @@ def main():
         "participant_id",
         "experienced",
         "round",
+        "round_confidence",
         "exercises",
         "total_tests",
         "passed",

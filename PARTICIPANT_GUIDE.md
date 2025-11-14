@@ -10,7 +10,7 @@ Welcome! This guide will help you complete the coding experiment.
 
 ### Step 1: Open Your Codespace
 
-1. Go to the repository: https://github.com/libanmohamud-spec/a
+1. Go to the repository: https://github.com/mrquorr/a
 2. Click the green **"Code"** button
 3. Select **"Create codespace on main"**
 4. Wait 2-3 minutes for setup to complete

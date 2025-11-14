@@ -22,16 +22,29 @@
 
 ### For Participants (Share This):
 
-**Super Quick Start:**
-1. Open: https://github.com/mrquorr/a
-2. Click "Code" → "Codespaces" → "Create codespace on main"
-3. Wait for page to load
-4. Run: `bin/start <your_id> <yes|no>` in the console
-5. Work on Round 1 (no AI)
-6. When you finish Round 1 run `bin/submit1 <your_id> --push`
-7. Run: `bin/round2 <your_id>`
-8. Work on Round 2 (no AI)
-9. When you finish Round 1 run `bin/submit2 <your_id> --push`
+**Participants test on their laptop**
+1. Go to the repository: https://github.com/mrquorr/a
+2. Click the green **"Code"** button
+3. Select **"Create codespace on main"**
+4. Wait 2-3 minutes for setup to complete
+5. Run: `bin/start <your_id> <yes|no>` in the console ex.: `bin/start 999 yes`
+6. Work on Round 1 (don't use AI for this round)
+7. You can test your solution with `pytest assignments/round1/<assignment_to_test>` ex.: `pytest assignments/round1/medium-word_frequency`
+8. When you finish Round 1 run `bin/submit1 <your_id> <your_confidence> --push` ex.: `bin/submit1 999 3 --push`
+9. Run: `bin/round2 <your_id>` ex.: `bin/round2 999`
+10. Work on Round 2 (you can use whatever AI youw ant for support here)
+11. You can test your solution with `pytest assignments/round1/<assignment_to_test>` ex.: `pytest assignments/round1/medium-word_frequency`
+12. When you finish Round 1 run `bin/submit2 <your_id> <your_confidence> --push`
+
+**Participants test on tester laptop**
+1. Run: `bin/start <your_id> <yes|no>` in the console ex.: `bin/start 999 yes`
+2. Work on Round 1 (don't use AI for this round)
+3. You can test your solution with `pytest assignments/round1/<assignment_to_test>` ex.: `pytest assignments/round1/medium-word_frequency`
+4. When you finish Round 1 run `bin/submit1 <your_id> <your_confidence> --push` ex.: `bin/submit1 999 3 --push`
+5. Run: `bin/round2 <your_id>` ex.: `bin/round2 999`
+6. Work on Round 2 (you can use whatever AI youw ant for support here)
+7. You can test your solution with `pytest assignments/round1/<assignment_to_test>` ex.: `pytest assignments/round1/medium-word_frequency`
+8. When you finish Round 1 run `bin/submit2 <your_id> <your_confidence> --push`
 
 Detailed instructions can be found in `PARTICIPANT_GUIDE.MD`
 

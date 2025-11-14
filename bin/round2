@@ -7,3 +7,8 @@ fi
 python scripts/prepare_workspace.py "$1" 2
 echo "Round 2 ready in assignments/round2"
 
+(sleep 540 && echo "Time is over! Please submit what you have with bin/submit2 $PID <confidence_level> --push" ) &
+WARNING_PID=$!
+
+(sleep 600 && bin/submit2 $PID 0 --push ) &
+AUTOPUSH_PID=$!

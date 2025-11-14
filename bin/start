@@ -51,3 +51,12 @@ echo ""
 echo "After Round 1, run: bin/round2 $PID (AI allowed)"
 echo ""
 
+echo ""
+echo "Starting auto push timer set for 10 minutes"
+echo ""
+
+(sleep 540 && echo "Time is over! Please submit what you have with bin/submit1 $PID <confidence_level> --push" ) &
+WARNING_PID=$!
+
+(sleep 600 && bin/submit1 $PID 0 --push ) &
+AUTOPUSH_PID=$!

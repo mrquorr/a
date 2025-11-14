@@ -22,6 +22,8 @@
 
 ### For Participants (Share This):
 
+## NOTE! You have 10 minutes to complete the exercise
+
 **Participants test on their laptop**
 1. Go to the repository: https://github.com/mrquorr/a
 2. Click the green **"Code"** button

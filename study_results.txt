@@ -1,5 +1,0 @@
-AI-Assisted Coding Study Results
-
-This study examined the impact of AI assistance on coding performance across 21 participants (IDs 300-320) who completed two rounds of coding challenges on November 14, 2025. In Round 1, participants worked without AI assistance and achieved an average success rate of 47% with a confidence level of 2.0/5. In Round 2, the same participants used AI coding tools and demonstrated a remarkable improvement, achieving an 84% average success rate with a confidence level of 4.4/5.
-
-The results show a compelling 36 percentage point improvement in performance when AI assistance was available, accompanied by a 2.4-point increase in participant confidence. This data suggests that AI tools not only enhance objective coding outcomes but also significantly boost developers' self-assurance in their abilities. The complete dataset is available in experiment_results.csv, containing detailed metrics for each participant including test results, completion times, and confidence scores for both rounds.

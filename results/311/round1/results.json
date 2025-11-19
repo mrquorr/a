@@ -5,9 +5,9 @@
   "root": "/home/participant311/workspace/experiment/a",
   "environment": {},
   "summary": {
-    "passed": 8,
-    "failed": 12,
-    "total": 20,
+    "passed": 7,
+    "failed": 8,
+    "total": 15,
     "collected": 11
   },
   "collectors": [],

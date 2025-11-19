@@ -5,9 +5,9 @@
   "root": "/workspaces/participant302",
   "environment": {},
   "summary": {
-    "passed": 15,
+    "passed": 20,
     "failed": 0,
-    "total": 15,
+    "total": 20,
     "collected": 18
   },
   "collectors": [],

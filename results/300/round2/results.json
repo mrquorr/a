@@ -1,1 +1,562 @@
-{"created": 1763119345.0, "duration": 538.4237460617348, "exitcode": 0, "root": "/workspaces/participant300", "environment": {}, "summary": {"passed": 20, "failed": 0, "total": 20, "collected": 20}, "collectors": [], "tests": [{"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_1", "lineno": 13, "outcome": "passed", "keywords": ["test_two_sum_1", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013747652987323246, "outcome": "passed"}, "call": {"duration": 0.00027743104364159324, "outcome": "passed"}, "teardown": {"duration": 7.516867110390652e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_2", "lineno": 18, "outcome": "passed", "keywords": ["test_two_sum_2", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 7.305999922690206e-05, "outcome": "passed"}, "call": {"duration": 0.00014934019982713097, "outcome": "passed"}, "teardown": {"duration": 6.281510169184802e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_3", "lineno": 23, "outcome": "passed", "keywords": ["test_two_sum_3", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001853169450721352, "outcome": "passed"}, "call": {"duration": 0.0002490035182773257, "outcome": "passed"}, "teardown": {"duration": 0.00012553650109763567, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_4", "lineno": 28, "outcome": "passed", "keywords": ["test_two_sum_4", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 7.931735576840212e-05, "outcome": "passed"}, "call": {"duration": 6.526601446709937e-05, "outcome": "passed"}, "teardown": {"duration": 5.1216051100193384e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_5", "lineno": 33, "outcome": "passed", "keywords": ["test_two_sum_5", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012948896783496333, "outcome": "passed"}, "call": {"duration": 0.00011375582871863573, "outcome": "passed", "longrepr": "def test_two_sum_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 8.215363348449271e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_6", "lineno": 38, "outcome": "passed", "keywords": ["test_two_sum_6", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00015454525045004204, "outcome": "passed"}, "call": {"duration": 0.00025633533728896976, "outcome": "passed", "longrepr": "def test_two_sum_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 5.952281349296925e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_1", "lineno": 13, "outcome": "passed", "keywords": ["test_remove_duplicates_1", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010562661141284552, "outcome": "passed"}, "call": {"duration": 0.000219393755040041, "outcome": "passed"}, "teardown": {"duration": 0.00013968189193537517, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_2", "lineno": 18, "outcome": "passed", "keywords": ["test_remove_duplicates_2", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012336753608416554, "outcome": "passed"}, "call": {"duration": 0.0002898664693634372, "outcome": "passed"}, "teardown": {"duration": 0.00011769114469536412, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_3", "lineno": 23, "outcome": "passed", "keywords": ["test_remove_duplicates_3", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012016638143531725, "outcome": "passed"}, "call": {"duration": 0.00019161270838479553, "outcome": "passed"}, "teardown": {"duration": 7.169974441741613e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_4", "lineno": 28, "outcome": "passed", "keywords": ["test_remove_duplicates_4", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013348992252592767, "outcome": "passed"}, "call": {"duration": 0.000196772557608214, "outcome": "passed"}, "teardown": {"duration": 6.290501199106345e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_5", "lineno": 33, "outcome": "passed", "keywords": ["test_remove_duplicates_5", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001888281724870597, "outcome": "passed"}, "call": {"duration": 0.00013552884070918661, "outcome": "passed", "longrepr": "def test_remove_duplicates_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.0001320655808736678, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_1", "lineno": 13, "outcome": "passed", "keywords": ["test_quicksort_1", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017748162558096418, "outcome": "passed"}, "call": {"duration": 0.00016258181289170476, "outcome": "passed"}, "teardown": {"duration": 9.686034296583625e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_2", "lineno": 18, "outcome": "passed", "keywords": ["test_quicksort_2", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011184904704269542, "outcome": "passed"}, "call": {"duration": 0.00020386901851157104, "outcome": "passed"}, "teardown": {"duration": 7.592496336019172e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_3", "lineno": 23, "outcome": "passed", "keywords": ["test_quicksort_3", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012947285952164363, "outcome": "passed"}, "call": {"duration": 0.0001817413574991159, "outcome": "passed"}, "teardown": {"duration": 0.00010357629078980848, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_4", "lineno": 28, "outcome": "passed", "keywords": ["test_quicksort_4", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019956121555726473, "outcome": "passed"}, "call": {"duration": 0.00013032258285432843, "outcome": "passed"}, "teardown": {"duration": 7.095731663532216e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_5", "lineno": 33, "outcome": "passed", "keywords": ["test_quicksort_5", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 8.268391157141822e-05, "outcome": "passed"}, "call": {"duration": 0.00017557940347686336, "outcome": "passed"}, "teardown": {"duration": 0.0001468297402467277, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_6", "lineno": 38, "outcome": "passed", "keywords": ["test_quicksort_6", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019095474962034414, "outcome": "passed"}, "call": {"duration": 0.00027687830133378257, "outcome": "passed"}, "teardown": {"duration": 0.00014793300415594056, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_7", "lineno": 43, "outcome": "passed", "keywords": ["test_quicksort_7", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001329358405343013, "outcome": "passed"}, "call": {"duration": 8.691911425988298e-05, "outcome": "passed", "longrepr": "def test_quicksort_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00010981972457083821, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_8", "lineno": 48, "outcome": "passed", "keywords": ["test_quicksort_8", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 5.9589710869487097e-05, "outcome": "passed"}, "call": {"duration": 0.00021598713276694813, "outcome": "passed", "longrepr": "def test_quicksort_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 5.454404503033242e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_9", "lineno": 53, "outcome": "passed", "keywords": ["test_quicksort_9", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00014655909350156182, "outcome": "passed"}, "call": {"duration": 0.00019042602680105922, "outcome": "passed", "longrepr": "def test_quicksort_9():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 7.931456032083099e-05, "outcome": "passed"}}]}
+{
+  "created": 1763119345.0,
+  "duration": 538.4237460617348,
+  "exitcode": 0,
+  "root": "/workspaces/participant300",
+  "environment": {},
+  "summary": {
+    "passed": 10,
+    "failed": 0,
+    "total": 10,
+    "collected": 20
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_1",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013747652987323246,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00027743104364159324,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 7.516867110390652e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_2",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 7.305999922690206e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00014934019982713097,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 6.281510169184802e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_3",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001853169450721352,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002490035182773257,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012553650109763567,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_4",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 7.931735576840212e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 6.526601446709937e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 5.1216051100193384e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_5",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012948896783496333,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011375582871863573,
+        "outcome": "passed",
+        "longrepr": "def test_two_sum_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 8.215363348449271e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_6",
+      "lineno": 38,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_6",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00015454525045004204,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00025633533728896976,
+        "outcome": "passed",
+        "longrepr": "def test_two_sum_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 5.952281349296925e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_1",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010562661141284552,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.000219393755040041,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013968189193537517,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_2",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012336753608416554,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002898664693634372,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00011769114469536412,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_3",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012016638143531725,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00019161270838479553,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 7.169974441741613e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_4",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013348992252592767,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.000196772557608214,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 6.290501199106345e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_5",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001888281724870597,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00013552884070918661,
+        "outcome": "passed",
+        "longrepr": "def test_remove_duplicates_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.0001320655808736678,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_1",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017748162558096418,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00016258181289170476,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 9.686034296583625e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_2",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011184904704269542,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00020386901851157104,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 7.592496336019172e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_3",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012947285952164363,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001817413574991159,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010357629078980848,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_4",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019956121555726473,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00013032258285432843,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 7.095731663532216e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_5",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.268391157141822e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017557940347686336,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.0001468297402467277,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_6",
+      "lineno": 38,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_6",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019095474962034414,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00027687830133378257,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00014793300415594056,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_7",
+      "lineno": 43,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_7",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001329358405343013,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 8.691911425988298e-05,
+        "outcome": "passed",
+        "longrepr": "def test_quicksort_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00010981972457083821,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_8",
+      "lineno": 48,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_8",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.9589710869487097e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00021598713276694813,
+        "outcome": "passed",
+        "longrepr": "def test_quicksort_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 5.454404503033242e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_9",
+      "lineno": 53,
+      "outcome": "passed",
+      "keywords": [
+        "test_quicksort_9",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00014655909350156182,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00019042602680105922,
+        "outcome": "passed",
+        "longrepr": "def test_quicksort_9():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 7.931456032083099e-05,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

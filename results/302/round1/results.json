@@ -1,1 +1,650 @@
-{"created": 1763120306.0, "duration": 377.06045991953334, "exitcode": 1, "root": "/home/participant302/workspace/experiment/a", "environment": {}, "summary": {"passed": 3, "failed": 14, "total": 17, "collected": 17}, "collectors": [], "tests": [{"nodeid": "assignments/round1/easy-max_value/tests/test_task.py::test_max_value_1", "lineno": 13, "outcome": "passed", "keywords": ["test_max_value_1", "test_task.py", "tests", "easy-max_value", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016572220309089592, "outcome": "passed"}, "call": {"duration": 0.0001447468395788799, "outcome": "passed"}, "teardown": {"duration": 0.00013200576779100035, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-max_value/tests/test_task.py::test_max_value_2", "lineno": 18, "outcome": "passed", "keywords": ["test_max_value_2", "test_task.py", "tests", "easy-max_value", "round1", "assignments", "a", ""], "setup": {"duration": 0.00014762792137164066, "outcome": "passed"}, "call": {"duration": 0.0002826793861934472, "outcome": "passed"}, "teardown": {"duration": 0.00013468154413253343, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-max_value/tests/test_task.py::test_max_value_3", "lineno": 23, "outcome": "passed", "keywords": ["test_max_value_3", "test_task.py", "tests", "easy-max_value", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019077284729134767, "outcome": "passed"}, "call": {"duration": 0.00017620236617274705, "outcome": "passed"}, "teardown": {"duration": 0.0001494624929477923, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-max_value/tests/test_task.py::test_max_value_4", "lineno": 28, "outcome": "failed", "keywords": ["test_max_value_4", "test_task.py", "tests", "easy-max_value", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010567484048266504, "outcome": "passed"}, "call": {"duration": 0.00012760772649882511, "outcome": "failed", "longrepr": "def test_max_value_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 31, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 31, "message": "AssertionError"}]}, "teardown": {"duration": 0.00010106897843331573, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_1", "lineno": 13, "outcome": "failed", "keywords": ["test_remove_duplicates_1", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.000130831239551138, "outcome": "passed"}, "call": {"duration": 0.00011215334727770477, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 36, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 36, "message": "AssertionError"}]}, "teardown": {"duration": 6.463442752246451e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_2", "lineno": 18, "outcome": "failed", "keywords": ["test_remove_duplicates_2", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 6.40621791489669e-05, "outcome": "passed"}, "call": {"duration": 0.00021307960805883356, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError"}]}, "teardown": {"duration": 0.0001188055278939107, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_3", "lineno": 23, "outcome": "failed", "keywords": ["test_remove_duplicates_3", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00014509792040111563, "outcome": "passed"}, "call": {"duration": 0.00012710269484382167, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError"}]}, "teardown": {"duration": 6.227495606760701e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_4", "lineno": 28, "outcome": "failed", "keywords": ["test_remove_duplicates_4", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 8.022445228471521e-05, "outcome": "passed"}, "call": {"duration": 0.00011405038268018642, "outcome": "failed", "longrepr": "def test_remove_duplicates_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError"}]}, "teardown": {"duration": 6.906236602240382e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_5", "lineno": 33, "outcome": "failed", "keywords": ["test_remove_duplicates_5", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 9.505351982631983e-05, "outcome": "passed"}, "call": {"duration": 0.00024367027581759668, "outcome": "failed", "longrepr": "def test_remove_duplicates_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError"}]}, "teardown": {"duration": 5.5889035401078803e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_1", "lineno": 13, "outcome": "failed", "keywords": ["test_word_break_1", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010266915352091322, "outcome": "passed"}, "call": {"duration": 0.00029464975142125634, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError"}]}, "teardown": {"duration": 0.00014732227157452675, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_2", "lineno": 18, "outcome": "failed", "keywords": ["test_word_break_2", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017482493091802262, "outcome": "passed"}, "call": {"duration": 0.00017840694515942104, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError"}]}, "teardown": {"duration": 0.0001112212318956026, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_3", "lineno": 23, "outcome": "failed", "keywords": ["test_word_break_3", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 6.735704248580563e-05, "outcome": "passed"}, "call": {"duration": 0.00022561761652600788, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError"}]}, "teardown": {"duration": 5.692970534933777e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_4", "lineno": 28, "outcome": "failed", "keywords": ["test_word_break_4", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013891408665309108, "outcome": "passed"}, "call": {"duration": 0.00024937687119131754, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 76, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 76, "message": "AssertionError"}]}, "teardown": {"duration": 8.635022270812406e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_5", "lineno": 33, "outcome": "failed", "keywords": ["test_word_break_5", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00015812551242697044, "outcome": "passed"}, "call": {"duration": 0.0001873776811332053, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 81, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 81, "message": "AssertionError"}], "longrepr": "def test_word_break_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.0001446753408599046, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_6", "lineno": 38, "outcome": "failed", "keywords": ["test_word_break_6", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 5.633826013794881e-05, "outcome": "passed"}, "call": {"duration": 0.0002707257007967445, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 86, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 86, "message": "AssertionError"}], "longrepr": "def test_word_break_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.0001462713578828001, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_7", "lineno": 43, "outcome": "failed", "keywords": ["test_word_break_7", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012555884816505602, "outcome": "passed"}, "call": {"duration": 0.00014469155713177283, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 91, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 91, "message": "AssertionError"}], "longrepr": "def test_word_break_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00012357398456306053, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_8", "lineno": 48, "outcome": "failed", "keywords": ["test_word_break_8", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013810210119498718, "outcome": "passed"}, "call": {"duration": 0.00013166366867876288, "outcome": "failed", "crash": {"path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 96, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 96, "message": "AssertionError"}], "longrepr": "def test_word_break_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.000146757821199331, "outcome": "passed"}}]}
+{
+  "created": 1763120306.0,
+  "duration": 377.06045991953334,
+  "exitcode": 1,
+  "root": "/home/participant302/workspace/experiment/a",
+  "environment": {},
+  "summary": {
+    "passed": 6,
+    "failed": 4,
+    "total": 10,
+    "collected": 17
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/easy-max_value/tests/test_task.py::test_max_value_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_max_value_1",
+        "test_task.py",
+        "tests",
+        "easy-max_value",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016572220309089592,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001447468395788799,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013200576779100035,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-max_value/tests/test_task.py::test_max_value_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_max_value_2",
+        "test_task.py",
+        "tests",
+        "easy-max_value",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00014762792137164066,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002826793861934472,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013468154413253343,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-max_value/tests/test_task.py::test_max_value_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_max_value_3",
+        "test_task.py",
+        "tests",
+        "easy-max_value",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019077284729134767,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017620236617274705,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.0001494624929477923,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-max_value/tests/test_task.py::test_max_value_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_max_value_4",
+        "test_task.py",
+        "tests",
+        "easy-max_value",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010567484048266504,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00012760772649882511,
+        "outcome": "failed",
+        "longrepr": "def test_max_value_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 31,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 31,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00010106897843331573,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_1",
+      "lineno": 13,
+      "outcome": "failed",
+      "keywords": [
+        "test_remove_duplicates_1",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.000130831239551138,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011215334727770477,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 36,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 36,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 6.463442752246451e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_2",
+      "lineno": 18,
+      "outcome": "failed",
+      "keywords": [
+        "test_remove_duplicates_2",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.40621791489669e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00021307960805883356,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 41,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 41,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.0001188055278939107,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_remove_duplicates_3",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00014509792040111563,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00012710269484382167,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 46,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 46,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 6.227495606760701e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_remove_duplicates_4",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.022445228471521e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011405038268018642,
+        "outcome": "failed",
+        "longrepr": "def test_remove_duplicates_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 51,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 51,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 6.906236602240382e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_remove_duplicates_5",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 9.505351982631983e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00024367027581759668,
+        "outcome": "failed",
+        "longrepr": "def test_remove_duplicates_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 56,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 56,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 5.5889035401078803e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_1",
+      "lineno": 13,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_break_1",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010266915352091322,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00029464975142125634,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 61,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 61,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00014732227157452675,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_2",
+      "lineno": 18,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_break_2",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017482493091802262,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017840694515942104,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 66,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 66,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.0001112212318956026,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_break_3",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.735704248580563e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00022561761652600788,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 71,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 71,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 5.692970534933777e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_break_4",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013891408665309108,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00024937687119131754,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 76,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 76,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 8.635022270812406e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_break_5",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00015812551242697044,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001873776811332053,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 81,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 81,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_word_break_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.0001446753408599046,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_6",
+      "lineno": 38,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_break_6",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.633826013794881e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002707257007967445,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 86,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 86,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_word_break_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.0001462713578828001,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_7",
+      "lineno": 43,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_break_7",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012555884816505602,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00014469155713177283,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 91,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 91,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_word_break_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00012357398456306053,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_8",
+      "lineno": 48,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_break_8",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013810210119498718,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00013166366867876288,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant302/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 96,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 96,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_word_break_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.000146757821199331,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

@@ -2,6 +2,6 @@
   "participant_id": "308",
   "round": "round2",
   "exit_code": 1,
-  "confidence_score": "5",
+  "confidence_score": 5,
   "submitted_at": "2025-11-14T11:08:01Z"
 }

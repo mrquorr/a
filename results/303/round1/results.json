@@ -1,1 +1,446 @@
-{"created": 1763118799.0, "duration": 323.39834591284136, "exitcode": 1, "root": "/home/participant303/workspace/experiment/a", "environment": {}, "summary": {"passed": 7, "failed": 6, "total": 13, "collected": 13}, "collectors": [], "tests": [{"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_1", "lineno": 13, "outcome": "passed", "keywords": ["test_sum_even_1", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012470485518740904, "outcome": "passed"}, "call": {"duration": 0.00015573923379379274, "outcome": "passed"}, "teardown": {"duration": 0.00014163069391623742, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_2", "lineno": 18, "outcome": "passed", "keywords": ["test_sum_even_2", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016156572214570233, "outcome": "passed"}, "call": {"duration": 0.00010509098765714223, "outcome": "passed"}, "teardown": {"duration": 9.561014785894174e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_3", "lineno": 23, "outcome": "passed", "keywords": ["test_sum_even_3", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019544644883785008, "outcome": "passed"}, "call": {"duration": 0.0002125418123820092, "outcome": "passed"}, "teardown": {"duration": 0.00012188994560067396, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_4", "lineno": 28, "outcome": "passed", "keywords": ["test_sum_even_4", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017547443134206169, "outcome": "passed"}, "call": {"duration": 0.0001444382923430375, "outcome": "passed", "longrepr": "def test_sum_even_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 8.679431239098733e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_5", "lineno": 33, "outcome": "passed", "keywords": ["test_sum_even_5", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 9.208085999613724e-05, "outcome": "passed"}, "call": {"duration": 0.00011418567629737625, "outcome": "passed", "longrepr": "def test_sum_even_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00011539866274913577, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_1", "lineno": 13, "outcome": "passed", "keywords": ["test_word_frequency_1", "test_task.py", "tests", "medium-word_frequency", "round1", "assignments", "a", ""], "setup": {"duration": 7.436857366323519e-05, "outcome": "passed"}, "call": {"duration": 0.0002703077443905917, "outcome": "passed"}, "teardown": {"duration": 6.164796510840763e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_2", "lineno": 18, "outcome": "passed", "keywords": ["test_word_frequency_2", "test_task.py", "tests", "medium-word_frequency", "round1", "assignments", "a", ""], "setup": {"duration": 7.84362802491557e-05, "outcome": "passed"}, "call": {"duration": 0.00011553127993902242, "outcome": "passed"}, "teardown": {"duration": 0.00012534514761857458, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_3", "lineno": 23, "outcome": "failed", "keywords": ["test_word_frequency_3", "test_task.py", "tests", "medium-word_frequency", "round1", "assignments", "a", ""], "setup": {"duration": 0.00014711362255800638, "outcome": "passed"}, "call": {"duration": 8.950365177212989e-05, "outcome": "failed", "crash": {"path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError"}]}, "teardown": {"duration": 7.961102417720458e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_4", "lineno": 28, "outcome": "failed", "keywords": ["test_word_frequency_4", "test_task.py", "tests", "medium-word_frequency", "round1", "assignments", "a", ""], "setup": {"duration": 0.00015123198713458194, "outcome": "passed"}, "call": {"duration": 9.851674259978294e-05, "outcome": "failed", "longrepr": "def test_word_frequency_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError"}]}, "teardown": {"duration": 0.00010622949979612249, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_5", "lineno": 33, "outcome": "failed", "keywords": ["test_word_frequency_5", "test_task.py", "tests", "medium-word_frequency", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001073135988768743, "outcome": "passed"}, "call": {"duration": 0.00013897989039013045, "outcome": "failed", "longrepr": "def test_word_frequency_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError"}]}, "teardown": {"duration": 0.0001106680222427198, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_6", "lineno": 38, "outcome": "failed", "keywords": ["test_word_frequency_6", "test_task.py", "tests", "medium-word_frequency", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019304275595704218, "outcome": "passed"}, "call": {"duration": 0.00018298519720913914, "outcome": "failed", "longrepr": "def test_word_frequency_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError"}]}, "teardown": {"duration": 9.061744606090263e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_7", "lineno": 43, "outcome": "failed", "keywords": ["test_word_frequency_7", "test_task.py", "tests", "medium-word_frequency", "round1", "assignments", "a", ""], "setup": {"duration": 0.00018998647264190755, "outcome": "passed"}, "call": {"duration": 0.00021559641775384709, "outcome": "failed", "longrepr": "def test_word_frequency_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError"}]}, "teardown": {"duration": 0.00014285755760096915, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_8", "lineno": 48, "outcome": "failed", "keywords": ["test_word_frequency_8", "test_task.py", "tests", "medium-word_frequency", "round1", "assignments", "a", ""], "setup": {"duration": 0.00015108342463311726, "outcome": "passed"}, "call": {"duration": 0.00016016738244991734, "outcome": "failed", "crash": {"path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 76, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 76, "message": "AssertionError"}], "longrepr": "def test_word_frequency_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00011978150168756092, "outcome": "passed"}}]}
+{
+  "created": 1763118799.0,
+  "duration": 323.39834591284136,
+  "exitcode": 1,
+  "root": "/home/participant303/workspace/experiment/a",
+  "environment": {},
+  "summary": {
+    "passed": 4,
+    "failed": 16,
+    "total": 20,
+    "collected": 13
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_1",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012470485518740904,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00015573923379379274,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00014163069391623742,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_2",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016156572214570233,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00010509098765714223,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 9.561014785894174e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_3",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019544644883785008,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002125418123820092,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012188994560067396,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_4",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017547443134206169,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001444382923430375,
+        "outcome": "passed",
+        "longrepr": "def test_sum_even_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 8.679431239098733e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_5",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 9.208085999613724e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011418567629737625,
+        "outcome": "passed",
+        "longrepr": "def test_sum_even_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00011539866274913577,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_word_frequency_1",
+        "test_task.py",
+        "tests",
+        "medium-word_frequency",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 7.436857366323519e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002703077443905917,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 6.164796510840763e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_word_frequency_2",
+        "test_task.py",
+        "tests",
+        "medium-word_frequency",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 7.84362802491557e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011553127993902242,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012534514761857458,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_frequency_3",
+        "test_task.py",
+        "tests",
+        "medium-word_frequency",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00014711362255800638,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 8.950365177212989e-05,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 51,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 51,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 7.961102417720458e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_frequency_4",
+        "test_task.py",
+        "tests",
+        "medium-word_frequency",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00015123198713458194,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 9.851674259978294e-05,
+        "outcome": "failed",
+        "longrepr": "def test_word_frequency_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 56,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 56,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00010622949979612249,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_frequency_5",
+        "test_task.py",
+        "tests",
+        "medium-word_frequency",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001073135988768743,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00013897989039013045,
+        "outcome": "failed",
+        "longrepr": "def test_word_frequency_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 61,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 61,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.0001106680222427198,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_6",
+      "lineno": 38,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_frequency_6",
+        "test_task.py",
+        "tests",
+        "medium-word_frequency",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019304275595704218,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00018298519720913914,
+        "outcome": "failed",
+        "longrepr": "def test_word_frequency_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 66,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 66,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 9.061744606090263e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_7",
+      "lineno": 43,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_frequency_7",
+        "test_task.py",
+        "tests",
+        "medium-word_frequency",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00018998647264190755,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00021559641775384709,
+        "outcome": "failed",
+        "longrepr": "def test_word_frequency_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 71,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 71,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00014285755760096915,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-word_frequency/tests/test_task.py::test_word_frequency_8",
+      "lineno": 48,
+      "outcome": "failed",
+      "keywords": [
+        "test_word_frequency_8",
+        "test_task.py",
+        "tests",
+        "medium-word_frequency",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00015108342463311726,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00016016738244991734,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant303/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 76,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 76,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_word_frequency_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00011978150168756092,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

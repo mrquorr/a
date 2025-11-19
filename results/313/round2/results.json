@@ -1,1 +1,234 @@
-{"created": 1763120069.0, "duration": 504.20655775184616, "exitcode": 0, "root": "/workspaces/participant313", "environment": {}, "summary": {"passed": 8, "failed": 0, "total": 8, "collected": 8}, "collectors": [], "tests": [{"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_1", "lineno": 13, "outcome": "passed", "keywords": ["test_list_average_1", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017198258960255194, "outcome": "passed"}, "call": {"duration": 0.00021353374096354341, "outcome": "passed"}, "teardown": {"duration": 9.411451300625904e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_2", "lineno": 18, "outcome": "passed", "keywords": ["test_list_average_2", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013875613463053052, "outcome": "passed"}, "call": {"duration": 0.00019653211116781296, "outcome": "passed"}, "teardown": {"duration": 0.00013607953572643793, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_3", "lineno": 23, "outcome": "passed", "keywords": ["test_list_average_3", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001750156710002466, "outcome": "passed"}, "call": {"duration": 0.00017220511797964624, "outcome": "passed"}, "teardown": {"duration": 5.3142388035864644e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_4", "lineno": 28, "outcome": "passed", "keywords": ["test_list_average_4", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019006684957575642, "outcome": "passed"}, "call": {"duration": 0.00017988296559924742, "outcome": "passed", "longrepr": "def test_list_average_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 8.341987905052594e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_1", "lineno": 13, "outcome": "passed", "keywords": ["test_sum_even_1", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012413334950795606, "outcome": "passed"}, "call": {"duration": 0.00015467307944809605, "outcome": "passed"}, "teardown": {"duration": 0.00011422364564727015, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_2", "lineno": 18, "outcome": "passed", "keywords": ["test_sum_even_2", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.00018421110071649354, "outcome": "passed"}, "call": {"duration": 0.00014857088873336614, "outcome": "passed"}, "teardown": {"duration": 0.00010940266921231982, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_3", "lineno": 23, "outcome": "passed", "keywords": ["test_sum_even_3", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 6.139733457318107e-05, "outcome": "passed"}, "call": {"duration": 0.00023387351924317672, "outcome": "passed"}, "teardown": {"duration": 6.619091504802718e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_4", "lineno": 28, "outcome": "passed", "keywords": ["test_sum_even_4", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001540512469230729, "outcome": "passed"}, "call": {"duration": 0.0001713127617481842, "outcome": "passed", "longrepr": "def test_sum_even_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 7.490765678095282e-05, "outcome": "passed"}}]}
+{
+  "created": 1763120069.0,
+  "duration": 504.20655775184616,
+  "exitcode": 0,
+  "root": "/workspaces/participant313",
+  "environment": {},
+  "summary": {
+    "passed": 15,
+    "failed": 0,
+    "total": 15,
+    "collected": 8
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_list_average_1",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017198258960255194,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00021353374096354341,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 9.411451300625904e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_list_average_2",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013875613463053052,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00019653211116781296,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013607953572643793,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_list_average_3",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001750156710002466,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017220511797964624,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 5.3142388035864644e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_list_average_4",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019006684957575642,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017988296559924742,
+        "outcome": "passed",
+        "longrepr": "def test_list_average_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 8.341987905052594e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_1",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012413334950795606,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00015467307944809605,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00011422364564727015,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_2",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00018421110071649354,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00014857088873336614,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010940266921231982,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_3",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.139733457318107e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00023387351924317672,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 6.619091504802718e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_4",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001540512469230729,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001713127617481842,
+        "outcome": "passed",
+        "longrepr": "def test_sum_even_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 7.490765678095282e-05,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

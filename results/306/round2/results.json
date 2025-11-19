@@ -1,1 +1,480 @@
-{"created": 1763118122.0, "duration": 453.68781589712944, "exitcode": 0, "root": "/workspaces/participant306", "environment": {}, "summary": {"passed": 17, "failed": 0, "total": 17, "collected": 17}, "collectors": [], "tests": [{"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_1", "lineno": 13, "outcome": "passed", "keywords": ["test_remove_duplicates_1", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017376265007081542, "outcome": "passed"}, "call": {"duration": 0.00016794303342093373, "outcome": "passed"}, "teardown": {"duration": 0.00012376794848558036, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_2", "lineno": 18, "outcome": "passed", "keywords": ["test_remove_duplicates_2", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016348911574264773, "outcome": "passed"}, "call": {"duration": 0.0001595789790374342, "outcome": "passed"}, "teardown": {"duration": 0.00012123682141406631, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_3", "lineno": 23, "outcome": "passed", "keywords": ["test_remove_duplicates_3", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001969102115836634, "outcome": "passed"}, "call": {"duration": 7.581550067941692e-05, "outcome": "passed"}, "teardown": {"duration": 0.00014455247988828245, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_4", "lineno": 28, "outcome": "passed", "keywords": ["test_remove_duplicates_4", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 6.683972536312292e-05, "outcome": "passed"}, "call": {"duration": 0.0002351893021431773, "outcome": "passed"}, "teardown": {"duration": 7.119192211992064e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_5", "lineno": 33, "outcome": "passed", "keywords": ["test_remove_duplicates_5", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011252860440596349, "outcome": "passed"}, "call": {"duration": 0.00013478879383332348, "outcome": "passed", "longrepr": "def test_remove_duplicates_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 7.608760433295002e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_6", "lineno": 38, "outcome": "passed", "keywords": ["test_remove_duplicates_6", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010893973381092477, "outcome": "passed"}, "call": {"duration": 0.00024409121749142766, "outcome": "passed", "longrepr": "def test_remove_duplicates_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 5.836557418251807e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_7", "lineno": 43, "outcome": "passed", "keywords": ["test_remove_duplicates_7", "test_task.py", "tests", "medium-remove_duplicates", "round1", "assignments", "a", ""], "setup": {"duration": 0.00014052772430734123, "outcome": "passed"}, "call": {"duration": 0.00021550996760688422, "outcome": "passed", "longrepr": "def test_remove_duplicates_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00012399073086363476, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_1", "lineno": 13, "outcome": "passed", "keywords": ["test_fibonacci_1", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013600994392416583, "outcome": "passed"}, "call": {"duration": 9.146962248760853e-05, "outcome": "passed"}, "teardown": {"duration": 0.00013140051098983464, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_2", "lineno": 18, "outcome": "passed", "keywords": ["test_fibonacci_2", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016272309160544692, "outcome": "passed"}, "call": {"duration": 7.869280900052334e-05, "outcome": "passed"}, "teardown": {"duration": 0.00011241041741966873, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_3", "lineno": 23, "outcome": "passed", "keywords": ["test_fibonacci_3", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 5.842502307196776e-05, "outcome": "passed"}, "call": {"duration": 0.00020222165085946887, "outcome": "passed"}, "teardown": {"duration": 0.00014348233180112106, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_4", "lineno": 28, "outcome": "passed", "keywords": ["test_fibonacci_4", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 5.018793434058906e-05, "outcome": "passed"}, "call": {"duration": 0.00022589469387659908, "outcome": "passed"}, "teardown": {"duration": 9.20625277359131e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_5", "lineno": 33, "outcome": "passed", "keywords": ["test_fibonacci_5", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 5.3681895539232624e-05, "outcome": "passed"}, "call": {"duration": 0.0002796296683751312, "outcome": "passed", "longrepr": "def test_fibonacci_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00011398450937476684, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_1", "lineno": 13, "outcome": "passed", "keywords": ["test_sum_even_1", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011831889031914245, "outcome": "passed"}, "call": {"duration": 0.0001327319365181994, "outcome": "passed"}, "teardown": {"duration": 0.00013065423463084935, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_2", "lineno": 18, "outcome": "passed", "keywords": ["test_sum_even_2", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 6.664596065987412e-05, "outcome": "passed"}, "call": {"duration": 0.00024839942664129673, "outcome": "passed"}, "teardown": {"duration": 0.00012039425251480029, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_3", "lineno": 23, "outcome": "passed", "keywords": ["test_sum_even_3", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019690142528623736, "outcome": "passed"}, "call": {"duration": 0.00018690002823246957, "outcome": "passed"}, "teardown": {"duration": 0.00010691187942936881, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_4", "lineno": 28, "outcome": "passed", "keywords": ["test_sum_even_4", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 9.040574602465848e-05, "outcome": "passed"}, "call": {"duration": 0.00016173378056703492, "outcome": "passed"}, "teardown": {"duration": 0.00010681740751485676, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_5", "lineno": 33, "outcome": "passed", "keywords": ["test_sum_even_5", "test_task.py", "tests", "easy-sum_even", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001513809066108835, "outcome": "passed"}, "call": {"duration": 0.0002761504287103879, "outcome": "passed", "longrepr": "def test_sum_even_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 7.009301568919084e-05, "outcome": "passed"}}]}
+{
+  "created": 1763118122.0,
+  "duration": 453.68781589712944,
+  "exitcode": 0,
+  "root": "/workspaces/participant306",
+  "environment": {},
+  "summary": {
+    "passed": 8,
+    "failed": 2,
+    "total": 10,
+    "collected": 17
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_1",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017376265007081542,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00016794303342093373,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012376794848558036,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_2",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016348911574264773,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001595789790374342,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012123682141406631,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_3",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001969102115836634,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 7.581550067941692e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00014455247988828245,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_4",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.683972536312292e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002351893021431773,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 7.119192211992064e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_5",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011252860440596349,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00013478879383332348,
+        "outcome": "passed",
+        "longrepr": "def test_remove_duplicates_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 7.608760433295002e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_6",
+      "lineno": 38,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_6",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010893973381092477,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00024409121749142766,
+        "outcome": "passed",
+        "longrepr": "def test_remove_duplicates_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 5.836557418251807e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-remove_duplicates/tests/test_task.py::test_remove_duplicates_7",
+      "lineno": 43,
+      "outcome": "passed",
+      "keywords": [
+        "test_remove_duplicates_7",
+        "test_task.py",
+        "tests",
+        "medium-remove_duplicates",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00014052772430734123,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00021550996760688422,
+        "outcome": "passed",
+        "longrepr": "def test_remove_duplicates_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00012399073086363476,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_1",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013600994392416583,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 9.146962248760853e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013140051098983464,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_2",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016272309160544692,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 7.869280900052334e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00011241041741966873,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_3",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.842502307196776e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00020222165085946887,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00014348233180112106,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_4",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.018793434058906e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00022589469387659908,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 9.20625277359131e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_5",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.3681895539232624e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002796296683751312,
+        "outcome": "passed",
+        "longrepr": "def test_fibonacci_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00011398450937476684,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_1",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011831889031914245,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001327319365181994,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013065423463084935,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_2",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.664596065987412e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00024839942664129673,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012039425251480029,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_3",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019690142528623736,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00018690002823246957,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010691187942936881,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_4",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 9.040574602465848e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00016173378056703492,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010681740751485676,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-sum_even/tests/test_task.py::test_sum_even_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_sum_even_5",
+        "test_task.py",
+        "tests",
+        "easy-sum_even",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001513809066108835,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002761504287103879,
+        "outcome": "passed",
+        "longrepr": "def test_sum_even_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 7.009301568919084e-05,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

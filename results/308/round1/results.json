@@ -1,1 +1,467 @@
-{"created": 1763118001.0, "duration": 319.6574064647699, "exitcode": 1, "root": "/home/participant308/workspace/experiment/a", "environment": {}, "summary": {"passed": 2, "failed": 10, "total": 12, "collected": 12}, "collectors": [], "tests": [{"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_1", "lineno": 13, "outcome": "passed", "keywords": ["test_count_vowels_1", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017966805118170334, "outcome": "passed"}, "call": {"duration": 0.00010157409288284893, "outcome": "passed"}, "teardown": {"duration": 0.00013647647893744587, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_2", "lineno": 18, "outcome": "passed", "keywords": ["test_count_vowels_2", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 7.058404661394224e-05, "outcome": "passed"}, "call": {"duration": 0.00017509875176827057, "outcome": "passed"}, "teardown": {"duration": 5.5763135984132206e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_3", "lineno": 23, "outcome": "failed", "keywords": ["test_count_vowels_3", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001181053805227726, "outcome": "passed"}, "call": {"duration": 7.718460079556428e-05, "outcome": "failed", "longrepr": "def test_count_vowels_3():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 26, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 26, "message": "AssertionError"}]}, "teardown": {"duration": 0.00014506757271419364, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_4", "lineno": 28, "outcome": "failed", "keywords": ["test_count_vowels_4", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 6.023978796616127e-05, "outcome": "passed"}, "call": {"duration": 0.000278617603273331, "outcome": "failed", "longrepr": "def test_count_vowels_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 31, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 31, "message": "AssertionError"}]}, "teardown": {"duration": 6.351997313373631e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_5", "lineno": 33, "outcome": "failed", "keywords": ["test_count_vowels_5", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001149839898861287, "outcome": "passed"}, "call": {"duration": 0.0002460005585341175, "outcome": "failed", "longrepr": "def test_count_vowels_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 36, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 36, "message": "AssertionError"}]}, "teardown": {"duration": 0.00012468693823923264, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_1", "lineno": 13, "outcome": "failed", "keywords": ["test_valid_parentheses_1", "test_task.py", "tests", "hard-valid_parentheses", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010757271269311658, "outcome": "passed"}, "call": {"duration": 0.0001461074235227908, "outcome": "failed", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError"}]}, "teardown": {"duration": 5.9514323155897996e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_2", "lineno": 18, "outcome": "failed", "keywords": ["test_valid_parentheses_2", "test_task.py", "tests", "hard-valid_parentheses", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016690778610484858, "outcome": "passed"}, "call": {"duration": 0.00014621439732531607, "outcome": "failed", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError"}]}, "teardown": {"duration": 0.00010868438392619373, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_3", "lineno": 23, "outcome": "failed", "keywords": ["test_valid_parentheses_3", "test_task.py", "tests", "hard-valid_parentheses", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012861817223955874, "outcome": "passed"}, "call": {"duration": 0.000216156106947213, "outcome": "failed", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError"}]}, "teardown": {"duration": 0.00013108888539981902, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_4", "lineno": 28, "outcome": "failed", "keywords": ["test_valid_parentheses_4", "test_task.py", "tests", "hard-valid_parentheses", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017185132161999075, "outcome": "passed"}, "call": {"duration": 0.0001095693621429394, "outcome": "failed", "longrepr": "def test_valid_parentheses_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError"}]}, "teardown": {"duration": 0.00010955825795407967, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_5", "lineno": 33, "outcome": "failed", "keywords": ["test_valid_parentheses_5", "test_task.py", "tests", "hard-valid_parentheses", "round1", "assignments", "a", ""], "setup": {"duration": 5.895371760552374e-05, "outcome": "passed"}, "call": {"duration": 0.0002383727883182547, "outcome": "failed", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError"}], "longrepr": "def test_valid_parentheses_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00010188023288368686, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_6", "lineno": 38, "outcome": "failed", "keywords": ["test_valid_parentheses_6", "test_task.py", "tests", "hard-valid_parentheses", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017650258697242367, "outcome": "passed"}, "call": {"duration": 0.00017458499863979508, "outcome": "failed", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError"}], "longrepr": "def test_valid_parentheses_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 9.196205010077036e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_7", "lineno": 43, "outcome": "failed", "keywords": ["test_valid_parentheses_7", "test_task.py", "tests", "hard-valid_parentheses", "round1", "assignments", "a", ""], "setup": {"duration": 6.125100408218793e-05, "outcome": "passed"}, "call": {"duration": 7.735738129357558e-05, "outcome": "failed", "crash": {"path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError"}], "longrepr": "def test_valid_parentheses_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00014502887477704497, "outcome": "passed"}}]}
+{
+  "created": 1763118001.0,
+  "duration": 319.6574064647699,
+  "exitcode": 1,
+  "root": "/home/participant308/workspace/experiment/a",
+  "environment": {},
+  "summary": {
+    "passed": 3,
+    "failed": 12,
+    "total": 15,
+    "collected": 12
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_1",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017966805118170334,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00010157409288284893,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013647647893744587,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_2",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 7.058404661394224e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017509875176827057,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 5.5763135984132206e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_count_vowels_3",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001181053805227726,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 7.718460079556428e-05,
+        "outcome": "failed",
+        "longrepr": "def test_count_vowels_3():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 26,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 26,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00014506757271419364,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_count_vowels_4",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.023978796616127e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.000278617603273331,
+        "outcome": "failed",
+        "longrepr": "def test_count_vowels_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 31,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 31,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 6.351997313373631e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_count_vowels_5",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001149839898861287,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002460005585341175,
+        "outcome": "failed",
+        "longrepr": "def test_count_vowels_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 36,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 36,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00012468693823923264,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_1",
+      "lineno": 13,
+      "outcome": "failed",
+      "keywords": [
+        "test_valid_parentheses_1",
+        "test_task.py",
+        "tests",
+        "hard-valid_parentheses",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010757271269311658,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001461074235227908,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 41,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 41,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 5.9514323155897996e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_2",
+      "lineno": 18,
+      "outcome": "failed",
+      "keywords": [
+        "test_valid_parentheses_2",
+        "test_task.py",
+        "tests",
+        "hard-valid_parentheses",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016690778610484858,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00014621439732531607,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 46,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 46,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00010868438392619373,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_valid_parentheses_3",
+        "test_task.py",
+        "tests",
+        "hard-valid_parentheses",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012861817223955874,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.000216156106947213,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 51,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 51,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00013108888539981902,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_valid_parentheses_4",
+        "test_task.py",
+        "tests",
+        "hard-valid_parentheses",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017185132161999075,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001095693621429394,
+        "outcome": "failed",
+        "longrepr": "def test_valid_parentheses_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 56,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 56,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00010955825795407967,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_valid_parentheses_5",
+        "test_task.py",
+        "tests",
+        "hard-valid_parentheses",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.895371760552374e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002383727883182547,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 61,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 61,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_valid_parentheses_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00010188023288368686,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_6",
+      "lineno": 38,
+      "outcome": "failed",
+      "keywords": [
+        "test_valid_parentheses_6",
+        "test_task.py",
+        "tests",
+        "hard-valid_parentheses",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017650258697242367,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017458499863979508,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 66,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 66,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_valid_parentheses_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 9.196205010077036e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-valid_parentheses/tests/test_task.py::test_valid_parentheses_7",
+      "lineno": 43,
+      "outcome": "failed",
+      "keywords": [
+        "test_valid_parentheses_7",
+        "test_task.py",
+        "tests",
+        "hard-valid_parentheses",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.125100408218793e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 7.735738129357558e-05,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant308/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 71,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 71,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_valid_parentheses_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00014502887477704497,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

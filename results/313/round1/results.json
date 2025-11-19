@@ -1,1 +1,381 @@
-{"created": 1763119949.0, "duration": 350.88698272195734, "exitcode": 1, "root": "/home/participant313/workspace/experiment/a", "environment": {}, "summary": {"passed": 9, "failed": 3, "total": 12, "collected": 12}, "collectors": [], "tests": [{"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_1", "lineno": 13, "outcome": "passed", "keywords": ["test_count_vowels_1", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017951000452815123, "outcome": "passed"}, "call": {"duration": 0.00011090935198861145, "outcome": "passed"}, "teardown": {"duration": 9.437075484197267e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_2", "lineno": 18, "outcome": "passed", "keywords": ["test_count_vowels_2", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016166561448587786, "outcome": "passed"}, "call": {"duration": 6.242333857096043e-05, "outcome": "passed"}, "teardown": {"duration": 0.00011435673475745895, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_3", "lineno": 23, "outcome": "passed", "keywords": ["test_count_vowels_3", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 5.939523483529693e-05, "outcome": "passed"}, "call": {"duration": 0.0002524238214429536, "outcome": "passed"}, "teardown": {"duration": 5.942127164533202e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_4", "lineno": 28, "outcome": "passed", "keywords": ["test_count_vowels_4", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.000169416071479558, "outcome": "passed"}, "call": {"duration": 0.0001691343432996469, "outcome": "passed", "longrepr": "def test_count_vowels_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00010285190480138012, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_1", "lineno": 13, "outcome": "passed", "keywords": ["test_two_sum_1", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012433864566626748, "outcome": "passed"}, "call": {"duration": 0.00011856813573764536, "outcome": "passed"}, "teardown": {"duration": 0.00013492654481421428, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_2", "lineno": 18, "outcome": "passed", "keywords": ["test_two_sum_2", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001712659978676606, "outcome": "passed"}, "call": {"duration": 0.0001716606472708473, "outcome": "passed"}, "teardown": {"duration": 8.31250599016793e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_3", "lineno": 23, "outcome": "passed", "keywords": ["test_two_sum_3", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016736609249808386, "outcome": "passed"}, "call": {"duration": 0.00016235245333308238, "outcome": "passed"}, "teardown": {"duration": 0.00013608966397671407, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_4", "lineno": 28, "outcome": "passed", "keywords": ["test_two_sum_4", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 6.446025959278351e-05, "outcome": "passed"}, "call": {"duration": 9.995220462366481e-05, "outcome": "passed"}, "teardown": {"duration": 0.00010971745502401694, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_5", "lineno": 33, "outcome": "passed", "keywords": ["test_two_sum_5", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011138780934839365, "outcome": "passed"}, "call": {"duration": 0.00020469769129745612, "outcome": "passed", "longrepr": "def test_two_sum_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 8.018468755210899e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_6", "lineno": 38, "outcome": "failed", "keywords": ["test_two_sum_6", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019486588009137167, "outcome": "passed"}, "call": {"duration": 0.0001493193139829303, "outcome": "failed", "crash": {"path": "/home/participant313/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError"}], "longrepr": "def test_two_sum_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00013883193700424894, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_7", "lineno": 43, "outcome": "failed", "keywords": ["test_two_sum_7", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013345767663220805, "outcome": "passed"}, "call": {"duration": 8.609882027914374e-05, "outcome": "failed", "crash": {"path": "/home/participant313/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError"}], "longrepr": "def test_two_sum_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 6.809722437704919e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_8", "lineno": 48, "outcome": "failed", "keywords": ["test_two_sum_8", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00014263726866429156, "outcome": "passed"}, "call": {"duration": 0.0001690248316606193, "outcome": "failed", "crash": {"path": "/home/participant313/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError"}], "longrepr": "def test_two_sum_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00013334251839619112, "outcome": "passed"}}]}
+{
+  "created": 1763119949.0,
+  "duration": 350.88698272195734,
+  "exitcode": 1,
+  "root": "/home/participant313/workspace/experiment/a",
+  "environment": {},
+  "summary": {
+    "passed": 3,
+    "failed": 12,
+    "total": 15,
+    "collected": 12
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_1",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017951000452815123,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011090935198861145,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 9.437075484197267e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_2",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016166561448587786,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 6.242333857096043e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00011435673475745895,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_3",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.939523483529693e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002524238214429536,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 5.942127164533202e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_4",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.000169416071479558,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001691343432996469,
+        "outcome": "passed",
+        "longrepr": "def test_count_vowels_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00010285190480138012,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_1",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012433864566626748,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011856813573764536,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013492654481421428,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_2",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001712659978676606,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001716606472708473,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 8.31250599016793e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_3",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016736609249808386,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00016235245333308238,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013608966397671407,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_4",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.446025959278351e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 9.995220462366481e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010971745502401694,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_5",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011138780934839365,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00020469769129745612,
+        "outcome": "passed",
+        "longrepr": "def test_two_sum_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 8.018468755210899e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_6",
+      "lineno": 38,
+      "outcome": "failed",
+      "keywords": [
+        "test_two_sum_6",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019486588009137167,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001493193139829303,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant313/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 61,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 61,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_two_sum_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00013883193700424894,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_7",
+      "lineno": 43,
+      "outcome": "failed",
+      "keywords": [
+        "test_two_sum_7",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013345767663220805,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 8.609882027914374e-05,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant313/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 66,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 66,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_two_sum_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 6.809722437704919e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_8",
+      "lineno": 48,
+      "outcome": "failed",
+      "keywords": [
+        "test_two_sum_8",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00014263726866429156,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001690248316606193,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant313/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 71,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 71,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_two_sum_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00013334251839619112,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

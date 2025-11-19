@@ -1,1 +1,530 @@
-{"created": 1763118481.0, "duration": 519.6445481565987, "exitcode": 1, "root": "/workspaces/participant308", "environment": {}, "summary": {"passed": 13, "failed": 4, "total": 17, "collected": 17}, "collectors": [], "tests": [{"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_1", "lineno": 13, "outcome": "passed", "keywords": ["test_fibonacci_1", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 5.131113688628569e-05, "outcome": "passed"}, "call": {"duration": 0.00029810439883893745, "outcome": "passed"}, "teardown": {"duration": 0.00011012656299715096, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_2", "lineno": 18, "outcome": "passed", "keywords": ["test_fibonacci_2", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013206683145733478, "outcome": "passed"}, "call": {"duration": 0.0002879628729891622, "outcome": "passed"}, "teardown": {"duration": 0.00010187409988474347, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_3", "lineno": 23, "outcome": "passed", "keywords": ["test_fibonacci_3", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 0.00015943833393037673, "outcome": "passed"}, "call": {"duration": 0.000278191200339296, "outcome": "passed"}, "teardown": {"duration": 0.00012673460742871338, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_4", "lineno": 28, "outcome": "passed", "keywords": ["test_fibonacci_4", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011820491900025462, "outcome": "passed"}, "call": {"duration": 0.00010593811320015937, "outcome": "passed"}, "teardown": {"duration": 0.00013743579281439808, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_5", "lineno": 33, "outcome": "passed", "keywords": ["test_fibonacci_5", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012428212816261878, "outcome": "passed"}, "call": {"duration": 0.0001872055542022321, "outcome": "passed", "longrepr": "def test_fibonacci_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00010604793419608197, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_6", "lineno": 38, "outcome": "passed", "keywords": ["test_fibonacci_6", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011015833319220442, "outcome": "passed"}, "call": {"duration": 0.00020131471853120978, "outcome": "passed", "longrepr": "def test_fibonacci_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00014161417193886845, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_7", "lineno": 43, "outcome": "passed", "keywords": ["test_fibonacci_7", "test_task.py", "tests", "medium-fibonacci", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011673749645880663, "outcome": "passed"}, "call": {"duration": 0.0001903884564448613, "outcome": "passed", "longrepr": "def test_fibonacci_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 8.483938768800967e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_1", "lineno": 13, "outcome": "passed", "keywords": ["test_word_break_1", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 8.52406660419466e-05, "outcome": "passed"}, "call": {"duration": 0.00011627783463682076, "outcome": "passed"}, "teardown": {"duration": 0.00010981265544117312, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_2", "lineno": 18, "outcome": "passed", "keywords": ["test_word_break_2", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00018146995203134587, "outcome": "passed"}, "call": {"duration": 0.00011602847630143675, "outcome": "passed"}, "teardown": {"duration": 8.24062827832215e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_3", "lineno": 23, "outcome": "passed", "keywords": ["test_word_break_3", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013203470168687514, "outcome": "passed"}, "call": {"duration": 7.875156897038268e-05, "outcome": "passed"}, "teardown": {"duration": 0.00010627021911792157, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_4", "lineno": 28, "outcome": "passed", "keywords": ["test_word_break_4", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016769037183211573, "outcome": "passed"}, "call": {"duration": 0.00025920870293118275, "outcome": "passed", "longrepr": "def test_word_break_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 6.806542016716063e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_5", "lineno": 33, "outcome": "passed", "keywords": ["test_word_break_5", "test_task.py", "tests", "hard-word_break", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011202274515311822, "outcome": "passed"}, "call": {"duration": 0.0001959199022841496, "outcome": "passed", "longrepr": "def test_word_break_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.0001065213762180727, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_1", "lineno": 13, "outcome": "passed", "keywords": ["test_binary_search_1", "test_task.py", "tests", "medium-binary_search", "round1", "assignments", "a", ""], "setup": {"duration": 6.350095439100944e-05, "outcome": "passed"}, "call": {"duration": 9.759326339210542e-05, "outcome": "passed"}, "teardown": {"duration": 6.502608493836148e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_2", "lineno": 18, "outcome": "failed", "keywords": ["test_binary_search_2", "test_task.py", "tests", "medium-binary_search", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012326607074065758, "outcome": "passed"}, "call": {"duration": 0.0001758793868295088, "outcome": "failed", "crash": {"path": "/workspaces/participant308/exercises/challenge/tests/test_task.py", "lineno": 81, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 81, "message": "AssertionError"}]}, "teardown": {"duration": 0.00014606832051724215, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_3", "lineno": 23, "outcome": "failed", "keywords": ["test_binary_search_3", "test_task.py", "tests", "medium-binary_search", "round1", "assignments", "a", ""], "setup": {"duration": 8.626488670521176e-05, "outcome": "passed"}, "call": {"duration": 0.00010257163261154703, "outcome": "failed", "crash": {"path": "/workspaces/participant308/exercises/challenge/tests/test_task.py", "lineno": 86, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 86, "message": "AssertionError"}]}, "teardown": {"duration": 5.997788062544726e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_4", "lineno": 28, "outcome": "failed", "keywords": ["test_binary_search_4", "test_task.py", "tests", "medium-binary_search", "round1", "assignments", "a", ""], "setup": {"duration": 8.554442767962006e-05, "outcome": "passed"}, "call": {"duration": 0.00019929708427370095, "outcome": "failed", "crash": {"path": "/workspaces/participant308/exercises/challenge/tests/test_task.py", "lineno": 91, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 91, "message": "AssertionError"}], "longrepr": "def test_binary_search_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 9.105781591487255e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_5", "lineno": 33, "outcome": "failed", "keywords": ["test_binary_search_5", "test_task.py", "tests", "medium-binary_search", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019236063664898378, "outcome": "passed"}, "call": {"duration": 0.00020237328757082788, "outcome": "failed", "crash": {"path": "/workspaces/participant308/exercises/challenge/tests/test_task.py", "lineno": 96, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 96, "message": "AssertionError"}], "longrepr": "def test_binary_search_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00011136192104620443, "outcome": "passed"}}]}
+{
+  "created": 1763118481.0,
+  "duration": 519.6445481565987,
+  "exitcode": 1,
+  "root": "/workspaces/participant308",
+  "environment": {},
+  "summary": {
+    "passed": 10,
+    "failed": 0,
+    "total": 10,
+    "collected": 17
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_1",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.131113688628569e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00029810439883893745,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00011012656299715096,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_2",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013206683145733478,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002879628729891622,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010187409988474347,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_3",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00015943833393037673,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.000278191200339296,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012673460742871338,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_4",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011820491900025462,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00010593811320015937,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00013743579281439808,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_5",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012428212816261878,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001872055542022321,
+        "outcome": "passed",
+        "longrepr": "def test_fibonacci_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00010604793419608197,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_6",
+      "lineno": 38,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_6",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011015833319220442,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00020131471853120978,
+        "outcome": "passed",
+        "longrepr": "def test_fibonacci_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00014161417193886845,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-fibonacci/tests/test_task.py::test_fibonacci_7",
+      "lineno": 43,
+      "outcome": "passed",
+      "keywords": [
+        "test_fibonacci_7",
+        "test_task.py",
+        "tests",
+        "medium-fibonacci",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011673749645880663,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001903884564448613,
+        "outcome": "passed",
+        "longrepr": "def test_fibonacci_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 8.483938768800967e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_word_break_1",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.52406660419466e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011627783463682076,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010981265544117312,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_word_break_2",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00018146995203134587,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011602847630143675,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 8.24062827832215e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_word_break_3",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013203470168687514,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 7.875156897038268e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010627021911792157,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_word_break_4",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016769037183211573,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00025920870293118275,
+        "outcome": "passed",
+        "longrepr": "def test_word_break_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 6.806542016716063e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-word_break/tests/test_task.py::test_word_break_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_word_break_5",
+        "test_task.py",
+        "tests",
+        "hard-word_break",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011202274515311822,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001959199022841496,
+        "outcome": "passed",
+        "longrepr": "def test_word_break_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.0001065213762180727,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_binary_search_1",
+        "test_task.py",
+        "tests",
+        "medium-binary_search",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.350095439100944e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 9.759326339210542e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 6.502608493836148e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_2",
+      "lineno": 18,
+      "outcome": "failed",
+      "keywords": [
+        "test_binary_search_2",
+        "test_task.py",
+        "tests",
+        "medium-binary_search",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012326607074065758,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001758793868295088,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant308/exercises/challenge/tests/test_task.py",
+          "lineno": 81,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 81,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00014606832051724215,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_binary_search_3",
+        "test_task.py",
+        "tests",
+        "medium-binary_search",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.626488670521176e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00010257163261154703,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant308/exercises/challenge/tests/test_task.py",
+          "lineno": 86,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 86,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 5.997788062544726e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_binary_search_4",
+        "test_task.py",
+        "tests",
+        "medium-binary_search",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.554442767962006e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00019929708427370095,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant308/exercises/challenge/tests/test_task.py",
+          "lineno": 91,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 91,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_binary_search_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 9.105781591487255e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-binary_search/tests/test_task.py::test_binary_search_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_binary_search_5",
+        "test_task.py",
+        "tests",
+        "medium-binary_search",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019236063664898378,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00020237328757082788,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant308/exercises/challenge/tests/test_task.py",
+          "lineno": 96,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 96,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_binary_search_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00011136192104620443,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

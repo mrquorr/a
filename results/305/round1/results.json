@@ -1,1 +1,470 @@
-{"created": 1763119159.0, "duration": 300.9072224406353, "exitcode": 1, "root": "/home/participant305/workspace/experiment/a", "environment": {}, "summary": {"passed": 5, "failed": 8, "total": 13, "collected": 13}, "collectors": [], "tests": [{"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_1", "lineno": 13, "outcome": "passed", "keywords": ["test_count_vowels_1", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010744380953097523, "outcome": "passed"}, "call": {"duration": 0.000246748815851524, "outcome": "passed"}, "teardown": {"duration": 7.007221537623909e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_2", "lineno": 18, "outcome": "passed", "keywords": ["test_count_vowels_2", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.000151538767153045, "outcome": "passed"}, "call": {"duration": 0.0002259781727495414, "outcome": "passed"}, "teardown": {"duration": 0.0001032985071477452, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_3", "lineno": 23, "outcome": "passed", "keywords": ["test_count_vowels_3", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001604936352562907, "outcome": "passed"}, "call": {"duration": 9.882359979987153e-05, "outcome": "passed", "longrepr": "def test_count_vowels_3():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 7.885950279796084e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_4", "lineno": 28, "outcome": "passed", "keywords": ["test_count_vowels_4", "test_task.py", "tests", "easy-count_vowels", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017917694608111676, "outcome": "passed"}, "call": {"duration": 0.000271786951976058, "outcome": "passed", "longrepr": "def test_count_vowels_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00010625423556214248, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_1", "lineno": 13, "outcome": "passed", "keywords": ["test_longest_common_subsequence_1", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.00018668914354061982, "outcome": "passed"}, "call": {"duration": 0.0002143251623361679, "outcome": "passed"}, "teardown": {"duration": 0.00012946175279646778, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_2", "lineno": 18, "outcome": "failed", "keywords": ["test_longest_common_subsequence_2", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 6.171294425603593e-05, "outcome": "passed"}, "call": {"duration": 0.00021274724531416154, "outcome": "failed", "crash": {"path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError"}]}, "teardown": {"duration": 0.00014935080922418712, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_3", "lineno": 23, "outcome": "failed", "keywords": ["test_longest_common_subsequence_3", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 7.817766282841216e-05, "outcome": "passed"}, "call": {"duration": 0.0002839471576001484, "outcome": "failed", "crash": {"path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError"}]}, "teardown": {"duration": 0.00014776488627988815, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_4", "lineno": 28, "outcome": "failed", "keywords": ["test_longest_common_subsequence_4", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 5.9074594879724674e-05, "outcome": "passed"}, "call": {"duration": 6.500776613554596e-05, "outcome": "failed", "crash": {"path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError"}]}, "teardown": {"duration": 5.97709588019686e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_5", "lineno": 33, "outcome": "failed", "keywords": ["test_longest_common_subsequence_5", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017399048414304025, "outcome": "passed"}, "call": {"duration": 0.00021467998406077978, "outcome": "failed", "longrepr": "def test_longest_common_subsequence_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError"}]}, "teardown": {"duration": 0.00012167290585176317, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_6", "lineno": 38, "outcome": "failed", "keywords": ["test_longest_common_subsequence_6", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011681744094409107, "outcome": "passed"}, "call": {"duration": 7.367223330063477e-05, "outcome": "failed", "longrepr": "def test_longest_common_subsequence_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError"}]}, "teardown": {"duration": 0.00011658651058918124, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_7", "lineno": 43, "outcome": "failed", "keywords": ["test_longest_common_subsequence_7", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.00018677221116232827, "outcome": "passed"}, "call": {"duration": 0.0001183743684237187, "outcome": "failed", "longrepr": "def test_longest_common_subsequence_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError"}]}, "teardown": {"duration": 7.90180539722707e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_8", "lineno": 48, "outcome": "failed", "keywords": ["test_longest_common_subsequence_8", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 7.367884812231058e-05, "outcome": "passed"}, "call": {"duration": 0.00015208596925238025, "outcome": "failed", "crash": {"path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 71, "message": "AssertionError"}], "longrepr": "def test_longest_common_subsequence_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 9.245475548750904e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_9", "lineno": 53, "outcome": "failed", "keywords": ["test_longest_common_subsequence_9", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001568428126531233, "outcome": "passed"}, "call": {"duration": 0.00024196760507542073, "outcome": "failed", "crash": {"path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 76, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 76, "message": "AssertionError"}], "longrepr": "def test_longest_common_subsequence_9():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 7.216337538542017e-05, "outcome": "passed"}}]}
+{
+  "created": 1763119159.0,
+  "duration": 300.9072224406353,
+  "exitcode": 1,
+  "root": "/home/participant305/workspace/experiment/a",
+  "environment": {},
+  "summary": {
+    "passed": 6,
+    "failed": 9,
+    "total": 15,
+    "collected": 13
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_1",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010744380953097523,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.000246748815851524,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 7.007221537623909e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_2",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.000151538767153045,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002259781727495414,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.0001032985071477452,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_3",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001604936352562907,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 9.882359979987153e-05,
+        "outcome": "passed",
+        "longrepr": "def test_count_vowels_3():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 7.885950279796084e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-count_vowels/tests/test_task.py::test_count_vowels_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_count_vowels_4",
+        "test_task.py",
+        "tests",
+        "easy-count_vowels",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017917694608111676,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.000271786951976058,
+        "outcome": "passed",
+        "longrepr": "def test_count_vowels_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00010625423556214248,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_1",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00018668914354061982,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002143251623361679,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012946175279646778,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_2",
+      "lineno": 18,
+      "outcome": "failed",
+      "keywords": [
+        "test_longest_common_subsequence_2",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.171294425603593e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00021274724531416154,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 41,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 41,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00014935080922418712,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_longest_common_subsequence_3",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 7.817766282841216e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002839471576001484,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 46,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 46,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00014776488627988815,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_longest_common_subsequence_4",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.9074594879724674e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 6.500776613554596e-05,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 51,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 51,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 5.97709588019686e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_longest_common_subsequence_5",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017399048414304025,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00021467998406077978,
+        "outcome": "failed",
+        "longrepr": "def test_longest_common_subsequence_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 56,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 56,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00012167290585176317,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_6",
+      "lineno": 38,
+      "outcome": "failed",
+      "keywords": [
+        "test_longest_common_subsequence_6",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011681744094409107,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 7.367223330063477e-05,
+        "outcome": "failed",
+        "longrepr": "def test_longest_common_subsequence_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 61,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 61,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00011658651058918124,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_7",
+      "lineno": 43,
+      "outcome": "failed",
+      "keywords": [
+        "test_longest_common_subsequence_7",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00018677221116232827,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001183743684237187,
+        "outcome": "failed",
+        "longrepr": "def test_longest_common_subsequence_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 66,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 66,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 7.90180539722707e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_8",
+      "lineno": 48,
+      "outcome": "failed",
+      "keywords": [
+        "test_longest_common_subsequence_8",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 7.367884812231058e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00015208596925238025,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 71,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 71,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_longest_common_subsequence_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 9.245475548750904e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_9",
+      "lineno": 53,
+      "outcome": "failed",
+      "keywords": [
+        "test_longest_common_subsequence_9",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001568428126531233,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00024196760507542073,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant305/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 76,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 76,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_longest_common_subsequence_9():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 7.216337538542017e-05,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

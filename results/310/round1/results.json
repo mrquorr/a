@@ -1,1 +1,404 @@
-{"created": 1763119532.0, "duration": 495.37302101075863, "exitcode": 1, "root": "/home/participant310/workspace/experiment/a", "environment": {}, "summary": {"passed": 4, "failed": 7, "total": 11, "collected": 11}, "collectors": [], "tests": [{"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_1", "lineno": 13, "outcome": "passed", "keywords": ["test_list_average_1", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 8.645304411531959e-05, "outcome": "passed"}, "call": {"duration": 0.00027280117864703464, "outcome": "passed"}, "teardown": {"duration": 8.56810148469426e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_2", "lineno": 18, "outcome": "passed", "keywords": ["test_list_average_2", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001791923684195057, "outcome": "passed"}, "call": {"duration": 0.00020227588490419286, "outcome": "passed"}, "teardown": {"duration": 0.00011888253562480249, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_3", "lineno": 23, "outcome": "passed", "keywords": ["test_list_average_3", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016380914760588962, "outcome": "passed"}, "call": {"duration": 8.228820705509237e-05, "outcome": "passed", "longrepr": "def test_list_average_3():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00014371019900335028, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_4", "lineno": 28, "outcome": "passed", "keywords": ["test_list_average_4", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 6.320499640878086e-05, "outcome": "passed"}, "call": {"duration": 0.0002794051819804282, "outcome": "passed", "longrepr": "def test_list_average_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00010765005228950678, "outcome": "passed"}}, {"nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_5", "lineno": 33, "outcome": "failed", "keywords": ["test_list_average_5", "test_task.py", "tests", "easy-list_average", "round1", "assignments", "a", ""], "setup": {"duration": 6.413484670721016e-05, "outcome": "passed"}, "call": {"duration": 0.00029632361989114436, "outcome": "failed", "longrepr": "def test_list_average_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 36, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 36, "message": "AssertionError"}]}, "teardown": {"duration": 6.18090863359174e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_1", "lineno": 13, "outcome": "failed", "keywords": ["test_quicksort_1", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012148414094842913, "outcome": "passed"}, "call": {"duration": 0.00026305469291599675, "outcome": "failed", "crash": {"path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError"}]}, "teardown": {"duration": 0.00013182239343695402, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_2", "lineno": 18, "outcome": "failed", "keywords": ["test_quicksort_2", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010621551731729566, "outcome": "passed"}, "call": {"duration": 0.00016672340015637982, "outcome": "failed", "crash": {"path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError"}]}, "teardown": {"duration": 0.00011655284592049337, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_3", "lineno": 23, "outcome": "failed", "keywords": ["test_quicksort_3", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00015043998285169298, "outcome": "passed"}, "call": {"duration": 7.460844727584131e-05, "outcome": "failed", "longrepr": "def test_quicksort_3():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError"}]}, "teardown": {"duration": 0.0001206432571657212, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_4", "lineno": 28, "outcome": "failed", "keywords": ["test_quicksort_4", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.000171506233754185, "outcome": "passed"}, "call": {"duration": 0.00013909684743585105, "outcome": "failed", "longrepr": "def test_quicksort_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError"}]}, "teardown": {"duration": 9.424085542921957e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_5", "lineno": 33, "outcome": "failed", "keywords": ["test_quicksort_5", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010132851827655145, "outcome": "passed"}, "call": {"duration": 0.00029754043173303317, "outcome": "failed", "longrepr": "def test_quicksort_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value", "crash": {"path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 61, "message": "AssertionError"}]}, "teardown": {"duration": 0.00011275930508345249, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_6", "lineno": 38, "outcome": "failed", "keywords": ["test_quicksort_6", "test_task.py", "tests", "hard-quicksort", "round1", "assignments", "a", ""], "setup": {"duration": 8.907432537288244e-05, "outcome": "passed"}, "call": {"duration": 0.0002724391816498684, "outcome": "failed", "crash": {"path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 66, "message": "AssertionError"}], "longrepr": "def test_quicksort_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 8.96755460476641e-05, "outcome": "passed"}}]}
+{
+  "created": 1763119532.0,
+  "duration": 495.37302101075863,
+  "exitcode": 1,
+  "root": "/home/participant310/workspace/experiment/a",
+  "environment": {},
+  "summary": {
+    "passed": 8,
+    "failed": 12,
+    "total": 20,
+    "collected": 11
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_list_average_1",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.645304411531959e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00027280117864703464,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 8.56810148469426e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_list_average_2",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001791923684195057,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00020227588490419286,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00011888253562480249,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_list_average_3",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016380914760588962,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 8.228820705509237e-05,
+        "outcome": "passed",
+        "longrepr": "def test_list_average_3():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00014371019900335028,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_list_average_4",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.320499640878086e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002794051819804282,
+        "outcome": "passed",
+        "longrepr": "def test_list_average_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00010765005228950678,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/easy-list_average/tests/test_task.py::test_list_average_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_list_average_5",
+        "test_task.py",
+        "tests",
+        "easy-list_average",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.413484670721016e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00029632361989114436,
+        "outcome": "failed",
+        "longrepr": "def test_list_average_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 36,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 36,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 6.18090863359174e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_1",
+      "lineno": 13,
+      "outcome": "failed",
+      "keywords": [
+        "test_quicksort_1",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012148414094842913,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00026305469291599675,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 41,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 41,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00013182239343695402,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_2",
+      "lineno": 18,
+      "outcome": "failed",
+      "keywords": [
+        "test_quicksort_2",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010621551731729566,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00016672340015637982,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 46,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 46,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00011655284592049337,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_quicksort_3",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00015043998285169298,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 7.460844727584131e-05,
+        "outcome": "failed",
+        "longrepr": "def test_quicksort_3():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 51,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 51,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.0001206432571657212,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_quicksort_4",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.000171506233754185,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00013909684743585105,
+        "outcome": "failed",
+        "longrepr": "def test_quicksort_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 56,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 56,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 9.424085542921957e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_quicksort_5",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010132851827655145,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00029754043173303317,
+        "outcome": "failed",
+        "longrepr": "def test_quicksort_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value",
+        "crash": {
+          "path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 61,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 61,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00011275930508345249,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-quicksort/tests/test_task.py::test_quicksort_6",
+      "lineno": 38,
+      "outcome": "failed",
+      "keywords": [
+        "test_quicksort_6",
+        "test_task.py",
+        "tests",
+        "hard-quicksort",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.907432537288244e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002724391816498684,
+        "outcome": "failed",
+        "crash": {
+          "path": "/home/participant310/workspace/experiment/a/exercises/challenge/tests/test_task.py",
+          "lineno": 66,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 66,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_quicksort_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 8.96755460476641e-05,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

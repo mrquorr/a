@@ -1,1 +1,462 @@
-{"created": 1763119337.0, "duration": 594.4320909641319, "exitcode": 1, "root": "/workspaces/participant314", "environment": {}, "summary": {"passed": 12, "failed": 3, "total": 15, "collected": 15}, "collectors": [], "tests": [{"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_1", "lineno": 13, "outcome": "passed", "keywords": ["test_longest_common_subsequence_1", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 8.845863569935841e-05, "outcome": "passed"}, "call": {"duration": 0.00010371756730716492, "outcome": "passed"}, "teardown": {"duration": 8.01237353470632e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_2", "lineno": 18, "outcome": "passed", "keywords": ["test_longest_common_subsequence_2", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001685177603082336, "outcome": "passed"}, "call": {"duration": 0.0001712481843297447, "outcome": "passed"}, "teardown": {"duration": 0.00012801060772998094, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_3", "lineno": 23, "outcome": "passed", "keywords": ["test_longest_common_subsequence_3", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 5.6983144504778545e-05, "outcome": "passed"}, "call": {"duration": 0.0001531463373053124, "outcome": "passed"}, "teardown": {"duration": 8.183444517405387e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_4", "lineno": 28, "outcome": "passed", "keywords": ["test_longest_common_subsequence_4", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011144426144630673, "outcome": "passed"}, "call": {"duration": 0.0001681627268356549, "outcome": "passed"}, "teardown": {"duration": 8.99741089539653e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_5", "lineno": 33, "outcome": "passed", "keywords": ["test_longest_common_subsequence_5", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001254511056627659, "outcome": "passed"}, "call": {"duration": 0.00013783356390793176, "outcome": "passed"}, "teardown": {"duration": 0.00011737175003759912, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_6", "lineno": 38, "outcome": "passed", "keywords": ["test_longest_common_subsequence_6", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.00017465617424748068, "outcome": "passed"}, "call": {"duration": 0.00024332969772216374, "outcome": "passed", "longrepr": "def test_longest_common_subsequence_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00012117062008328478, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_7", "lineno": 43, "outcome": "passed", "keywords": ["test_longest_common_subsequence_7", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001900260740366416, "outcome": "passed"}, "call": {"duration": 0.00011821248145567285, "outcome": "passed", "longrepr": "def test_longest_common_subsequence_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.0001262697940671575, "outcome": "passed"}}, {"nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_8", "lineno": 48, "outcome": "passed", "keywords": ["test_longest_common_subsequence_8", "test_task.py", "tests", "hard-longest_common_subsequence", "round1", "assignments", "a", ""], "setup": {"duration": 0.00014397864415475022, "outcome": "passed"}, "call": {"duration": 8.807949347724722e-05, "outcome": "passed", "longrepr": "def test_longest_common_subsequence_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.00011294640057373138, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_1", "lineno": 13, "outcome": "passed", "keywords": ["test_sudoku_validator_1", "test_task.py", "tests", "medium-sudoku_validator", "round1", "assignments", "a", ""], "setup": {"duration": 9.168274092864905e-05, "outcome": "passed"}, "call": {"duration": 0.00016107886082081813, "outcome": "passed"}, "teardown": {"duration": 9.937311436892309e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_2", "lineno": 18, "outcome": "passed", "keywords": ["test_sudoku_validator_2", "test_task.py", "tests", "medium-sudoku_validator", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001791734471800727, "outcome": "passed"}, "call": {"duration": 0.00017870740581898682, "outcome": "passed"}, "teardown": {"duration": 8.881736427085381e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_3", "lineno": 23, "outcome": "passed", "keywords": ["test_sudoku_validator_3", "test_task.py", "tests", "medium-sudoku_validator", "round1", "assignments", "a", ""], "setup": {"duration": 0.00015777068431126938, "outcome": "passed"}, "call": {"duration": 8.609300470802766e-05, "outcome": "passed"}, "teardown": {"duration": 0.00010492609355097022, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_4", "lineno": 28, "outcome": "passed", "keywords": ["test_sudoku_validator_4", "test_task.py", "tests", "medium-sudoku_validator", "round1", "assignments", "a", ""], "setup": {"duration": 0.00010293719518330416, "outcome": "passed"}, "call": {"duration": 0.0002496103458266349, "outcome": "passed"}, "teardown": {"duration": 9.038866629901033e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_5", "lineno": 33, "outcome": "failed", "keywords": ["test_sudoku_validator_5", "test_task.py", "tests", "medium-sudoku_validator", "round1", "assignments", "a", ""], "setup": {"duration": 0.00019531857948438253, "outcome": "passed"}, "call": {"duration": 0.00010996315315582067, "outcome": "failed", "crash": {"path": "/workspaces/participant314/exercises/challenge/tests/test_task.py", "lineno": 76, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 76, "message": "AssertionError"}]}, "teardown": {"duration": 0.00013420105889756486, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_6", "lineno": 38, "outcome": "failed", "keywords": ["test_sudoku_validator_6", "test_task.py", "tests", "medium-sudoku_validator", "round1", "assignments", "a", ""], "setup": {"duration": 8.689817051188142e-05, "outcome": "passed"}, "call": {"duration": 6.0429117660436184e-05, "outcome": "failed", "crash": {"path": "/workspaces/participant314/exercises/challenge/tests/test_task.py", "lineno": 81, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 81, "message": "AssertionError"}], "longrepr": "def test_sudoku_validator_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 0.0001148485923681085, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_7", "lineno": 43, "outcome": "failed", "keywords": ["test_sudoku_validator_7", "test_task.py", "tests", "medium-sudoku_validator", "round1", "assignments", "a", ""], "setup": {"duration": 5.264895499967234e-05, "outcome": "passed"}, "call": {"duration": 0.0001079732270483781, "outcome": "failed", "crash": {"path": "/workspaces/participant314/exercises/challenge/tests/test_task.py", "lineno": 86, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 86, "message": "AssertionError"}], "longrepr": "def test_sudoku_validator_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 6.16762310746986e-05, "outcome": "passed"}}]}
+{
+  "created": 1763119337.0,
+  "duration": 594.4320909641319,
+  "exitcode": 1,
+  "root": "/workspaces/participant314",
+  "environment": {},
+  "summary": {
+    "passed": 10,
+    "failed": 0,
+    "total": 10,
+    "collected": 15
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_1",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.845863569935841e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00010371756730716492,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 8.01237353470632e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_2",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001685177603082336,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001712481843297447,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00012801060772998094,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_3",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.6983144504778545e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001531463373053124,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 8.183444517405387e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_4",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011144426144630673,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001681627268356549,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 8.99741089539653e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_5",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001254511056627659,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00013783356390793176,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00011737175003759912,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_6",
+      "lineno": 38,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_6",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00017465617424748068,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00024332969772216374,
+        "outcome": "passed",
+        "longrepr": "def test_longest_common_subsequence_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00012117062008328478,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_7",
+      "lineno": 43,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_7",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001900260740366416,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00011821248145567285,
+        "outcome": "passed",
+        "longrepr": "def test_longest_common_subsequence_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.0001262697940671575,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/hard-longest_common_subsequence/tests/test_task.py::test_longest_common_subsequence_8",
+      "lineno": 48,
+      "outcome": "passed",
+      "keywords": [
+        "test_longest_common_subsequence_8",
+        "test_task.py",
+        "tests",
+        "hard-longest_common_subsequence",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00014397864415475022,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 8.807949347724722e-05,
+        "outcome": "passed",
+        "longrepr": "def test_longest_common_subsequence_8():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.00011294640057373138,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_sudoku_validator_1",
+        "test_task.py",
+        "tests",
+        "medium-sudoku_validator",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 9.168274092864905e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00016107886082081813,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 9.937311436892309e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_sudoku_validator_2",
+        "test_task.py",
+        "tests",
+        "medium-sudoku_validator",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001791734471800727,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017870740581898682,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 8.881736427085381e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_sudoku_validator_3",
+        "test_task.py",
+        "tests",
+        "medium-sudoku_validator",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00015777068431126938,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 8.609300470802766e-05,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00010492609355097022,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_sudoku_validator_4",
+        "test_task.py",
+        "tests",
+        "medium-sudoku_validator",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00010293719518330416,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002496103458266349,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 9.038866629901033e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_5",
+      "lineno": 33,
+      "outcome": "failed",
+      "keywords": [
+        "test_sudoku_validator_5",
+        "test_task.py",
+        "tests",
+        "medium-sudoku_validator",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00019531857948438253,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00010996315315582067,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant314/exercises/challenge/tests/test_task.py",
+          "lineno": 76,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 76,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00013420105889756486,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_6",
+      "lineno": 38,
+      "outcome": "failed",
+      "keywords": [
+        "test_sudoku_validator_6",
+        "test_task.py",
+        "tests",
+        "medium-sudoku_validator",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 8.689817051188142e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 6.0429117660436184e-05,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant314/exercises/challenge/tests/test_task.py",
+          "lineno": 81,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 81,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_sudoku_validator_6():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 0.0001148485923681085,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-sudoku_validator/tests/test_task.py::test_sudoku_validator_7",
+      "lineno": 43,
+      "outcome": "failed",
+      "keywords": [
+        "test_sudoku_validator_7",
+        "test_task.py",
+        "tests",
+        "medium-sudoku_validator",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 5.264895499967234e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001079732270483781,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant314/exercises/challenge/tests/test_task.py",
+          "lineno": 86,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 86,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_sudoku_validator_7():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 6.16762310746986e-05,
+        "outcome": "passed"
+      }
+    }
+  ]
+}

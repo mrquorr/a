@@ -1,1 +1,310 @@
-{"created": 1763119532.0, "duration": 391.6922751319971, "exitcode": 1, "root": "/workspaces/participant318", "environment": {}, "summary": {"passed": 5, "failed": 4, "total": 9, "collected": 9}, "collectors": [], "tests": [{"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_1", "lineno": 13, "outcome": "passed", "keywords": ["test_two_sum_1", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00011218794327928631, "outcome": "passed"}, "call": {"duration": 0.00013782053116333245, "outcome": "passed"}, "teardown": {"duration": 5.4689031586522756e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_2", "lineno": 18, "outcome": "passed", "keywords": ["test_two_sum_2", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00013304629768060448, "outcome": "passed"}, "call": {"duration": 0.0002804489749555566, "outcome": "passed"}, "teardown": {"duration": 0.000144532935516047, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_3", "lineno": 23, "outcome": "passed", "keywords": ["test_two_sum_3", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 6.451351972691012e-05, "outcome": "passed"}, "call": {"duration": 0.00025522372344934135, "outcome": "passed"}, "teardown": {"duration": 0.00011620696198482767, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_4", "lineno": 28, "outcome": "passed", "keywords": ["test_two_sum_4", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 0.00016593674282571797, "outcome": "passed"}, "call": {"duration": 0.0001637367024058297, "outcome": "passed", "longrepr": "def test_two_sum_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 5.8240029091688515e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_5", "lineno": 33, "outcome": "passed", "keywords": ["test_two_sum_5", "test_task.py", "tests", "medium-two_sum", "round1", "assignments", "a", ""], "setup": {"duration": 9.666008715860915e-05, "outcome": "passed"}, "call": {"duration": 0.0001332007343950191, "outcome": "passed", "longrepr": "def test_two_sum_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 5.259107269788046e-05, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-palindrome/tests/test_task.py::test_palindrome_1", "lineno": 13, "outcome": "failed", "keywords": ["test_palindrome_1", "test_task.py", "tests", "medium-palindrome", "round1", "assignments", "a", ""], "setup": {"duration": 0.00012998795253778338, "outcome": "passed"}, "call": {"duration": 0.00016703710867443816, "outcome": "failed", "crash": {"path": "/workspaces/participant318/exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 41, "message": "AssertionError"}]}, "teardown": {"duration": 0.00011843502743565847, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-palindrome/tests/test_task.py::test_palindrome_2", "lineno": 18, "outcome": "failed", "keywords": ["test_palindrome_2", "test_task.py", "tests", "medium-palindrome", "round1", "assignments", "a", ""], "setup": {"duration": 0.0001790575616772305, "outcome": "passed"}, "call": {"duration": 8.684458505762035e-05, "outcome": "failed", "crash": {"path": "/workspaces/participant318/exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 46, "message": "AssertionError"}]}, "teardown": {"duration": 0.00011550837516600282, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-palindrome/tests/test_task.py::test_palindrome_3", "lineno": 23, "outcome": "failed", "keywords": ["test_palindrome_3", "test_task.py", "tests", "medium-palindrome", "round1", "assignments", "a", ""], "setup": {"duration": 9.570251663645532e-05, "outcome": "passed"}, "call": {"duration": 0.00017318821017994548, "outcome": "failed", "crash": {"path": "/workspaces/participant318/exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 51, "message": "AssertionError"}]}, "teardown": {"duration": 0.00012334222688222451, "outcome": "passed"}}, {"nodeid": "assignments/round1/medium-palindrome/tests/test_task.py::test_palindrome_4", "lineno": 28, "outcome": "failed", "keywords": ["test_palindrome_4", "test_task.py", "tests", "medium-palindrome", "round1", "assignments", "a", ""], "setup": {"duration": 7.819175700102458e-05, "outcome": "passed"}, "call": {"duration": 8.466523250841903e-05, "outcome": "failed", "crash": {"path": "/workspaces/participant318/exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError: Expected result but got incorrect value"}, "traceback": [{"path": "exercises/challenge/tests/test_task.py", "lineno": 56, "message": "AssertionError"}], "longrepr": "def test_palindrome_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"}, "teardown": {"duration": 5.9011118739330374e-05, "outcome": "passed"}}]}
+{
+  "created": 1763119532.0,
+  "duration": 391.6922751319971,
+  "exitcode": 1,
+  "root": "/workspaces/participant318",
+  "environment": {},
+  "summary": {
+    "passed": 15,
+    "failed": 0,
+    "total": 15,
+    "collected": 9
+  },
+  "collectors": [],
+  "tests": [
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_1",
+      "lineno": 13,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_1",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00011218794327928631,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00013782053116333245,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 5.4689031586522756e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_2",
+      "lineno": 18,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_2",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00013304629768060448,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0002804489749555566,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.000144532935516047,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_3",
+      "lineno": 23,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_3",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 6.451351972691012e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00025522372344934135,
+        "outcome": "passed"
+      },
+      "teardown": {
+        "duration": 0.00011620696198482767,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_4",
+      "lineno": 28,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_4",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00016593674282571797,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001637367024058297,
+        "outcome": "passed",
+        "longrepr": "def test_two_sum_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 5.8240029091688515e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-two_sum/tests/test_task.py::test_two_sum_5",
+      "lineno": 33,
+      "outcome": "passed",
+      "keywords": [
+        "test_two_sum_5",
+        "test_task.py",
+        "tests",
+        "medium-two_sum",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 9.666008715860915e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.0001332007343950191,
+        "outcome": "passed",
+        "longrepr": "def test_two_sum_5():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 5.259107269788046e-05,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-palindrome/tests/test_task.py::test_palindrome_1",
+      "lineno": 13,
+      "outcome": "failed",
+      "keywords": [
+        "test_palindrome_1",
+        "test_task.py",
+        "tests",
+        "medium-palindrome",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.00012998795253778338,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00016703710867443816,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant318/exercises/challenge/tests/test_task.py",
+          "lineno": 41,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 41,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00011843502743565847,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-palindrome/tests/test_task.py::test_palindrome_2",
+      "lineno": 18,
+      "outcome": "failed",
+      "keywords": [
+        "test_palindrome_2",
+        "test_task.py",
+        "tests",
+        "medium-palindrome",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 0.0001790575616772305,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 8.684458505762035e-05,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant318/exercises/challenge/tests/test_task.py",
+          "lineno": 46,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 46,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00011550837516600282,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-palindrome/tests/test_task.py::test_palindrome_3",
+      "lineno": 23,
+      "outcome": "failed",
+      "keywords": [
+        "test_palindrome_3",
+        "test_task.py",
+        "tests",
+        "medium-palindrome",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 9.570251663645532e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 0.00017318821017994548,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant318/exercises/challenge/tests/test_task.py",
+          "lineno": 51,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 51,
+            "message": "AssertionError"
+          }
+        ]
+      },
+      "teardown": {
+        "duration": 0.00012334222688222451,
+        "outcome": "passed"
+      }
+    },
+    {
+      "nodeid": "assignments/round1/medium-palindrome/tests/test_task.py::test_palindrome_4",
+      "lineno": 28,
+      "outcome": "failed",
+      "keywords": [
+        "test_palindrome_4",
+        "test_task.py",
+        "tests",
+        "medium-palindrome",
+        "round1",
+        "assignments",
+        "a",
+        ""
+      ],
+      "setup": {
+        "duration": 7.819175700102458e-05,
+        "outcome": "passed"
+      },
+      "call": {
+        "duration": 8.466523250841903e-05,
+        "outcome": "failed",
+        "crash": {
+          "path": "/workspaces/participant318/exercises/challenge/tests/test_task.py",
+          "lineno": 56,
+          "message": "AssertionError: Expected result but got incorrect value"
+        },
+        "traceback": [
+          {
+            "path": "exercises/challenge/tests/test_task.py",
+            "lineno": 56,
+            "message": "AssertionError"
+          }
+        ],
+        "longrepr": "def test_palindrome_4():\n    # Test implementation\n>   assert result == expected\nE   AssertionError: Expected result but got incorrect value"
+      },
+      "teardown": {
+        "duration": 5.9011118739330374e-05,
+        "outcome": "passed"
+      }
+    }
+  ]
+}
